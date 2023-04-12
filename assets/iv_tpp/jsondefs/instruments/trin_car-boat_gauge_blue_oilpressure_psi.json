@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "textureXCenter": 192,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_pressure",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,1.5],
+          "offset": -65.0
+        }
+      ]
+    },
+    {
+      "textureXCenter": 704,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_blue_oilpressure_psi",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin Blue Gauge - Oil Presure (PSI)",
+    "description": "Indicates oil pressure.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:12:1","minecraft:dye:0:1"]
+  }
+}

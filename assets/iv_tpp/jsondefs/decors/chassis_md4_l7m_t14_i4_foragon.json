@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_md4_l7m_t14_i4_foragon",
+      "name": "model LD4-L7M-T14-I4 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-L7M-T14-I4 chassis",
+    "description": "Used in:\n- Trin Foragon Panel Van\n- Trin Foragon Half Panel Van\n- Trin Foragon Minibus\n- Trin Foragon Pickup",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:35"]
+    ]
+  }
+}

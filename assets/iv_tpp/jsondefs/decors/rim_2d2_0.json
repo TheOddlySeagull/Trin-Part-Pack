@@ -1,0 +1,28 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_steel",
+      "modelName": "rim_2d2_0",
+      "name": "Trin Rim (2*2) - Microsteel Rim - Steel",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:4","minecraft:dye:4:4"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:1"]
+    ]
+  }
+}

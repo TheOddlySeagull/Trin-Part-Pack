@@ -1,0 +1,74 @@
+{
+  "generic": {
+    "type": "seat_furniture"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:2"]
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:2"]
+      ]
+    },
+    {
+      "subName": "_3",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:2"]
+      ]
+    },
+    {
+      "subName": "_4",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:2"]
+      ]
+    },
+    {
+      "subName": "_5",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2"]
+      ]
+    },
+    {
+      "subName": "_6",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:2"]
+      ]
+    },
+    {
+      "subName": "_7",
+      "modelName": "furniture_sofa_mp_1",
+      "name": "Furniture Sofa",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:2","minecraft:leather:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:wool:0:1"]
+    ]
+  }
+}

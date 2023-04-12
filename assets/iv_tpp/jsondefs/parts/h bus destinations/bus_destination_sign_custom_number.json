@@ -1,0 +1,49 @@
+{
+  "generic": {
+    "type": "generic_sign_busdestination",
+    "width": 2.0,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_0",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?custom - Rockford",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "textObjects": [
+      {
+        "pos": [-0.97875,0.112,0.03438],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.125,
+        "fieldName": "Bus Number",
+        "defaultText": "000",
+        "maxLength": 3,
+        "color": "FFFFFF"
+      },
+      {
+        "pos": [-0.97875,-0.04,0.03438],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.2,
+        "fieldName": "Bus Logo",
+        "defaultText": "",
+        "maxLength": 2,
+        "color": "267F00"
+      }
+    ],
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:10"]
+    ]
+  }
+}

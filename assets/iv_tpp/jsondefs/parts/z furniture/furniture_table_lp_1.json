@@ -1,0 +1,27 @@
+{
+  "generic": {
+    "type": "generic_furniture",
+    "width": 0.75,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "base_block",
+      "name": "Furniture Table",
+      "extraMaterialLists": [
+        ["minecraft:iron_ingot:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:wooden_slab:0:1","minecraft:stick:0:4"]
+    ]
+  }
+}

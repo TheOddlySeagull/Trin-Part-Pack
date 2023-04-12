@@ -1,0 +1,81 @@
+{
+  "generic": {
+    "type": "generic_carsticker",
+    "width": 0.25,
+    "height": 0.25
+  },
+  "definitions": [
+    {"_comment": "Number 911, Generic Police",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_police_generic",
+
+      "description": "Generic Police, 911",
+      "subName": "_police_generic",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Number 911, Gramados Police",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_police_gramados",
+
+      "description": "Gramados Police, 911",
+      "subName": "_police_gramados",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Number 911, Sheriff Police",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_police_sheriff",
+
+      "description": "Sheriff Police, 911",
+      "subName": "_police_sheriff",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Number 112, Ambulance",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_ambulance",
+
+      "description": "Ambulance, 112",
+      "subName": "_ambulance",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Number 18, Fire Department",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_firedept",
+
+      "description": "Fire Department, 18",
+      "subName": "_firedept",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Number 15, Gas SOS",
+      "name": "Service Number Sticker",
+      "modelName": "service_sticker_number",
+
+      "textureName": "service_sticker_number_gassos",
+
+      "description": "Gas SOS, 15",
+      "subName": "_gassos",
+      "extraMaterialLists": []
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 20,
+    "stackSize": 64,
+    "materialLists": [
+      []
+    ]
+  }
+}

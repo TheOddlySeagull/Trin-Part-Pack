@@ -1,0 +1,129 @@
+{
+  "generic": {
+    "type": "ground_wheel",
+    "movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "ground_rotation",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [1.0,0.0,0.0]
+      }
+    ]
+  },
+  "ground": {
+    "isWheel": true,
+    "width": 0.0625,
+    "height": 0.125,
+    "motiveFriction": 0.5,
+    "lateralFriction": 0.5,
+    "frictionModifiers": {
+      "snow": -0.2,
+      "ice": -0.2,
+      "dirt_wet": -0.1,
+      "sand_wet": -0.1,
+      "normal_wet": -0.1
+    }
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "bbq_wheel_1",
+      "name": "Normal BBQ Wheel",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "mts:wheel_blowout",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "name": "mts:wheel_striking",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_contacted",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mts:wheel_skidding",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_slipping",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "quantity": 4,
+        "color": "FFFFFF",
+        "initialVelocity": [0.0,0.15,0.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_contacted",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "quantity": 4,
+        "color": "FFFFFF",
+        "initialVelocity": [0.0,0.15,0.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_slipping",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "quantity": 1,
+        "color": "FFFFFF",
+        "initialVelocity": [0.0,0.2,-0.2],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_slipping",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Normal BBQ Wheel",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:1","minecraft:wool:15:1"]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_lco_ladder_t6m",
+      "name": "model MD4-L6M-T16-V8 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model MD4-L6M-T16-V8 chassis",
+    "description": "Used in:\n- Trin Large Sportail",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:30"]
+    ]
+  }
+}

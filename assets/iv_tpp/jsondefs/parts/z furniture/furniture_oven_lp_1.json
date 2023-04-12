@@ -1,0 +1,40 @@
+{
+  "generic": {
+    "type": "interactable_furniture"
+  },
+  "interactable": {
+    "interactionType": "furnace",
+    "furnaceType": "standard",
+    "furnaceRate": 1.0,
+    "furnaceEfficiency": 1.0,
+    "inventoryUnits": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "base_block",
+      "name": "Furniture Oven",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:1"]
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "base_block",
+      "name": "Furniture Oven",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4","minecraft:furnace:0:1"]
+    ]
+  }
+}

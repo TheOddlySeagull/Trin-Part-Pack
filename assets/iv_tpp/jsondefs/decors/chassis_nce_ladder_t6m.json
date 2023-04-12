@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_nce_ladder_t6m",
+      "name": "model LD4-L7M-T14-I4 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-L7M-T14-I4 chassis",
+    "description": "Used in:\n- Trin Pilocrap",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:35"]
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "generic": {
+    "type": "seat_bus"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:1","minecraft:dye:11:1","minecraft:dye:4:1"]
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2","minecraft:dye:0:1"]
+      ]
+    },
+    {
+      "subName": "_3",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:1","minecraft:dye:4:1","minecraft:dye:0:1"]
+      ]
+    },
+    {
+      "subName": "_4",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:13:2","minecraft:dye:11:1"]
+      ]
+    },
+    {
+      "subName": "_5",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:2","minecraft:dye:1:1"]
+      ]
+    },
+    {
+      "subName": "_6",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:9:1","minecraft:dye:12:1","minecraft:dye:15:1"]
+      ]
+    },
+    {
+      "subName": "_7",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:3"]
+      ]
+    },
+    {
+      "subName": "_8",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:3"]
+      ]
+    },
+    {
+      "subName": "_9",
+      "modelName": "trin_seat_bus",
+      "name": "Trin Bus Seat",
+      "extraMaterialLists": [
+        ["minecraft:dye:6:1","minecraft:dye:11:1","minecraft:dye:2:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:paper:0:3","minecraft:iron_ingot:0:2","minecraft:string:0:3","minecraft:wool:0:1"]
+    ],
+    "stackSize": 64
+  }
+}

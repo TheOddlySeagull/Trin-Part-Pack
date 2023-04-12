@@ -1,0 +1,144 @@
+{
+  "generic": {
+    "type": "generic_truckbed",
+    "width": 3.0,
+    "height": 0.2
+  },
+  "collisionGroups": [
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [-1.46875,0.34375,-0.3125],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "dumpster_bed",
+          "variableType": "toggle"
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "dumpster_bed",
+          "axis": [0.0,3.9375,-1.75]
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [1.46875,0.34375,-0.3125],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "dumpster_bed",
+          "variableType": "toggle"
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "dumpster_bed",
+          "axis": [0.0,3.9375,-1.75]
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [1.59375,0.625,-0.625],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "dumpster_bed",
+          "variableType": "toggle"
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "dumpster_bed",
+          "axis": [0.0,0.0,0.0]
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Truck Bed - Dumpster Flatbed",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "door_bed",
+        "applyAfter": "dumpster_bed",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "dumpster_bed",
+            "centerPoint": [0.0,1.1875,-6.0],
+            "axis": [45.0,0.0,0.0],
+            "duration": 160,
+            "forwardsStartSound": "iv_tpp:bootopen",
+            "reverseEndSound": "iv_tpp:bootclose"
+          }
+        ]
+      },
+      {
+        "objectName": "dumpster_bed",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "dumpster_bed",
+            "centerPoint": [0.0,0.125,-5.75],
+            "axis": [-45.0,0.0,0.0],
+            "duration": 160,
+            "forwardsStartSound": "iv_tpp:hydraulic_sound",
+            "reverseStartSound": "iv_tpp:hydraulic_sound"
+          }
+        ]
+      },
+      {
+        "objectName": "hydrolics_core",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "dumpster_bed",
+            "centerPoint": [0.0,0.09375,-0.65625],
+            "axis": [60.0,0.0,0.0],
+            "duration": 160
+          }
+        ]
+      },
+      {
+        "objectName": "hydrolics_arm",
+        "applyAfter": "hydrolics_core",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "dumpster_bed",
+            "axis": [0.0,0.0,-1.6875],
+            "duration": 160
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "customVariables": ["dumpster_bed"],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Truck Bed - Dumpster Flatbed",
+    "health": 100,
+    "materialLists": [
+      ["iv_tpp:metal_pile_4:0:3","minecraft:iron_ingot:0:40"]
+    ]
+  }
+}

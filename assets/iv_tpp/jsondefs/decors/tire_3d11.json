@@ -1,0 +1,47 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_classic",
+      "modelName": "tire_3d11",
+      "name": "Trin Compact Tire (11*3) - 3/11R5 - classic",
+      "description": "Use with:\n- Ministeel rim (5*3)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_offroad",
+      "modelName": "tire_3d11",
+      "name": "Trin Compact Tire (11*3) - 3/11R5 - off road",
+      "description": "Use with:\n- Ministeel rim (5*3)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_sport",
+      "modelName": "tire_3d11",
+      "name": "Trin Compact Tire (11*3) - 3/11R5 - sport",
+      "description": "Use with:\n- Ministeel rim (5*3)",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "materialLists": [
+      ["minecraft:wool:7:4"]
+    ],
+    "stackSize": 32
+  }
+}

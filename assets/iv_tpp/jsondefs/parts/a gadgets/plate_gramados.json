@@ -1,0 +1,35 @@
+{
+  "generic": {
+    "type": "generic_licenseplate_euro",
+    "disableMirroring": true,
+    "width": 0.25,
+    "height": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "plate_gramados",
+      "name": "Gramados License Plate",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [
+      {
+        "pos": [0.0,0.025,0.01],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.11,
+        "fieldName": "License Plate",
+        "defaultText": "ABC-1234",
+        "maxLength": 8,
+        "color": "#000000"
+      }
+    ],
+    "particles": []
+  },
+  "general": {
+    "name": "Gramados License Plate",
+    "materials": ["minecraft:iron_ingot:0:1"],
+    "stackSize": 64
+  }
+}

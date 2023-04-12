@@ -1,0 +1,45 @@
+{
+  "generic": {
+    "type": "generic_ledlight",
+    "width": 0.125,
+    "height": 0.125
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Blue Small LED",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "&EmergencyLight_33adff_FFFFF_011",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "33ADFF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "customVariables": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Blue Small LED",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:5:1","minecraft:iron_nugget:0:1","minecraft:glowstone_dust:0:1"]
+    ],
+    "stackSize": 64
+  }
+}

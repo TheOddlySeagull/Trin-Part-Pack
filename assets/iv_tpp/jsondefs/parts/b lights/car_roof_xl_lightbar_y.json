@@ -1,0 +1,44 @@
+{
+  "generic": {
+    "type": "generic_lightbar",
+    "width": 0.5,
+    "height": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Yellow Large Lightbar",
+      "extraMaterials": []
+    }
+  ],
+  "general": {
+    "name": "Yellow Large Lightbar",
+    "materials": ["minecraft:dye:11:4","minecraft:iron_ingot:0:5","minecraft:glass_pane:0:3"],
+    "stackSize": 16
+  },
+  "rendering": {
+    "animatedObjects": [],
+    "lightObjects":[
+		{//Emergency Light
+			"objectName": "&EmergencyLight_ffcc00_C0CC0_111",
+			"emissive": true,
+			"covered": true,
+			"isElectric": true,
+			"color": "#ffcc00",
+			"brightnessAnimations": [
+				{
+					"animationType": "visibility",
+					"variable": "emergency_light",
+					"clampMin": 1.0,
+					"clampMax": 1.0
+				}
+			]
+		}
+	],
+	"textObjects": [],
+	"cameraObjects": [],
+    "sounds": [],
+	"particles": [],
+	"customVariables": ["emergency_light"]
+  }
+}

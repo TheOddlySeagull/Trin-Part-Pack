@@ -1,0 +1,39 @@
+{
+  "generic": {
+    "type": "interactable_crate_roof"
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "_carbon_fiber",
+      "modelName": "roof_crate",
+      "name": "Trin Carbon Fiber Roof Crate",
+      "extraMaterials": ["mts:iv_tpp.carbon_fiber_pile:0:2"]
+    },
+	{
+      "subName": "_white",
+      "modelName": "roof_crate",
+      "name": "Trin White roof Crate",
+      "extraMaterials": ["minecraft:dye:15:4"]
+    },
+	{
+      "subName": "_dark_gray",
+      "modelName": "roof_crate",
+      "name": "Trin Dark Gray roof Crate",
+      "extraMaterials": ["minecraft:dye:8:4"]
+    },
+	{
+      "subName": "_light_gray",
+      "modelName": "roof_crate",
+      "name": "Trin Light Gray roof Crate",
+      "extraMaterials": ["minecraft:dye:7:4"]
+    }
+  ],
+  "general": {
+    "materials": ["minecraft:iron_ingot:0:4"],
+    "stackSize": 4
+  }
+}

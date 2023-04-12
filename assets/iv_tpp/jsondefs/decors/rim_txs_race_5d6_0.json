@@ -1,0 +1,52 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_bluedemon",
+      "modelName": "rim_txs_race_5d6_0",
+      "name": "Trin Rim (5*6) - TXS Brawn Star Rim - Blue Demon",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:4","minecraft:dye:4:4"]
+      ]
+    },
+    {
+      "subName": "_goldghost",
+      "modelName": "rim_txs_race_5d6_0",
+      "name": "Trin Rim (5*6) - TXS Brawn Star Rim - Golden Ghost",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.wrap_roll_gold:0:1","minecraft:dye:7:4"]
+      ]
+    },
+    {
+      "subName": "_flamingchrome",
+      "modelName": "rim_txs_race_5d6_0",
+      "name": "Trin Rim (5*6) - TXS Brawn Star Rim - Flaming Chrome",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:6","minecraft:dye:1:2"]
+      ]
+    },
+    {
+      "subName": "_fataltxs",
+      "modelName": "rim_txs_race_5d6_0",
+      "name": "Trin Rim (5*6) - TXS Brawn Star Rim - Fatal TXS",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:6","minecraft:dye:1:2"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4"]
+    ]
+  }
+}

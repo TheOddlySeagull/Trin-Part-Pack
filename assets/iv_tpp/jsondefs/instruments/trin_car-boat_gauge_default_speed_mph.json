@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "textureXCenter": 192,
+      "textureYCenter": 704,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 320,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "speed",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,5.03000020980835],
+          "offset": -135.0
+        }
+      ]
+    },
+    {
+      "textureXCenter": 704,
+      "textureYCenter": 320,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 704,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_default_speed_mph",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin Default gauge - speedometer (MPH)",
+    "description": "Indicates speed.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:0:1"]
+  }
+}

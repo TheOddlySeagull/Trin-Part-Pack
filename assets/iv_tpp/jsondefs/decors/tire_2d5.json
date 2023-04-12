@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_classic",
+      "modelName": "tire_2d5",
+      "name": "Trin Tiny Tire (5*2) - 2/5R2 - classic",
+      "description": "Use with:\n- Microsteel rim (2*2)",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:wool:7:2"]
+    ]
+  }
+}

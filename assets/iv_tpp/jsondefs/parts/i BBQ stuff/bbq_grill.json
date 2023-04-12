@@ -1,0 +1,27 @@
+{
+  "generic": {
+    "type": "seat_bbq"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "bbq_grill",
+      "name": "BBQ grill",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "BBQ grill",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4"]
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_classic",
+      "modelName": "tire_4d14",
+      "name": "Trin Standard Tire (14*4) - 4/14R8 - classic",
+      "description": "Use with:\n- Modesteel rim (8*4)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_offroad",
+      "modelName": "tire_4d14",
+      "name": "Trin Standard Tire (14*4) - 4/14R8 - off road",
+      "description": "Use with:\n- Modesteel rim (8*4)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_sport",
+      "modelName": "tire_4d14",
+      "name": "Trin Standard Tire (14*4) - 4/14R8 - sport",
+      "description": "Use with:\n- Modesteel rim (8*4)",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "materialLists": [
+      ["minecraft:wool:7:7"]
+    ],
+    "stackSize": 32
+  }
+}

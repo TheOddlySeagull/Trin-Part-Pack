@@ -1,0 +1,95 @@
+{
+  "generic": {
+    "type": "generic_ledlight",
+    "width": 0.18,
+    "height": 0.18
+  },
+  "definitions": [
+    {
+      "subName": "_chrome",
+      "name": "Red Large LED, with chrome casing",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:1"]
+      ]
+    },
+    {
+      "subName": "_copper",
+      "name": "Red Large LED, with copper casing",
+      "extraMaterialLists": [
+        ["minecraft:dye:14:1"]
+      ]
+    },
+    {
+      "subName": "_metal",
+      "name": "Red Large LED, with dark metal casing",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "&RunningLight_e60000_FFFFF_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "E60000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "running_light",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.0,0.09375,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          },
+          {
+            "pos": [0.0,0.09375,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          },
+          {
+            "pos": [-0.03125,0.15625,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          },
+          {
+            "pos": [0.0,0.15625,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          },
+          {
+            "pos": [0.0,0.03125,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.5625,
+            "flareWidth": 0.5625
+          },
+          {
+            "pos": [0.03125,0.03125,0.0625],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.375,
+            "flareWidth": 0.375
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:1:1","minecraft:iron_nugget:0:5","minecraft:glowstone_dust:0:2"]
+    ],
+    "stackSize": 64
+  }
+}

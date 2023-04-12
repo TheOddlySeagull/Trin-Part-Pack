@@ -1,0 +1,37 @@
+{
+  "generic": {
+    "type": "interactable_furniture"
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "base_block",
+      "name": "Furniture Drawers",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:1","minecraft:iron_ingot:0:1"]
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "base_block",
+      "name": "Furniture Drawers)",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:1","minecraft:planks:1:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:planks:0:1","minecraft:chest:0:1"]
+    ]
+  }
+}

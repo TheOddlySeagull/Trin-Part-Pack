@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 0.5,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "metal_pile",
+      "name": "Metal sheets - factory floor",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Metal sheets - factory floor",
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:iron_block:0:1"]
+    ]
+  }
+}

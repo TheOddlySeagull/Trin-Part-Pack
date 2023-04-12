@@ -1,0 +1,38 @@
+{
+  "generic": {
+    "type": "propeller",
+    "movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "propeller_rotation",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [0.0,0.0,1.0]
+      }
+    ]
+  },
+  "propeller": {
+    "pitch": 20,
+    "diameter": 12
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Trin Small Boat Engine Propeller",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin Small Boat Engine Propeller",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4"]
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "generic": {
+    "type": "engine_car"
+  },
+  "engine": {
+    "type": "normal",
+    "starterPower": 45,
+    "shiftSpeed": 20,
+    "clutchTime": 6,
+    "revResistance": 7,
+    "maxRPM": 7000,
+    "maxSafeRPM": 6500,
+    "idleRPM": 750,
+    "startRPM": 600,
+    "revlimitRPM": 6500,
+    "revlimitBounce": 4,
+    "stallRPM": 400,
+    "engineWinddownRate": 100,
+    "heatingCoefficient": 0.8,
+    "coolingCoefficient": 1.1,
+    "engineWearFactor": 1.0,
+    "fuelConsumption": 0.5,
+    "gearRatios": [-4.0,0.0,3.5,2.0,1.3,1.0,0.75],
+    "upShiftRPM": [0,0,5500,5300,5100,4900,4000],
+    "downShiftRPM": [0,0,3000,2900,2800,2700,2600],
+    "fuelType": "gasoline",
+    "superchargerFuelConsumption": 0.4,
+    "superchargerEfficiency": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_engine_v8_normal",
+      "name": "Trin V-8 Engine, gasoline manual",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "variableModifiers": [
+    {
+      "variable": "currentGearRatio",
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "engine_clutching",
+          "clampMin": 1.0,
+          "clampMax": 1.0
+        },
+        {
+          "animationType": "translation",
+          "variable": "!manualgear",
+          "axis": [0.0,0.0,1.0],
+          "offset": -1.0
+        }
+      ]
+    },
+    {
+      "variable": "engine_clutching",
+      "maxValue": 1.0,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "engine_clutch_upshift",
+          "axis": [0.0,3.0,0.0],
+          "offset": -1.0
+        },
+        {
+          "animationType": "translation",
+          "variable": "engine_clutch_downshift",
+          "axis": [0.0,3.0,0.0],
+          "offset": -1.0
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "iv_tpp:engine_sputter",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "iv_tpp:engine_badshift",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_badshift",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_badshift",
+            "axis": [0.0,0.5,0.0],
+            "duration": 20
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "speed",
+            "axis": [0.0,0.05,0.0],
+            "offset": 0.2
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:engine_cranking_3",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_starter",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.25,0.0],
+            "clampMin": 0.25,
+            "clampMax": 0.25
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,6.0,0.0],
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:engine_v8_idle",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.25,0.0],
+            "offset": 0.4
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,2.2,0.0]
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:engine_v8_high",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.7,0.0],
+            "offset": -0.3
+          },
+          {
+            "animationType": "translation",
+            "variable": "throttle",
+            "axis": [0.0,0.6,0.0]
+          },
+          {
+            "animationType": "translation",
+            "variable": "engine_starting",
+            "axis": [0.0,1.5,0.0],
+            "duration": 5
+          },
+          {
+            "animationType": "translation",
+            "variable": "engine_clutch_upshift",
+            "axis": [0.0,-0.7,0.0],
+            "duration": 4
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,1.1,0.0]
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 115.556,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "scale": 2.5,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 121.111,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_oilleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "FF0000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_fuelleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin V-8 Engine, gasoline manual",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:12:2","minecraft:piston:0:10","minecraft:iron_ingot:0:20"]
+    ],
+    "repairMaterialLists": [
+      ["minecraft:piston:0:8","minecraft:iron_ingot:0:10"]
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 2.0
+  },
+  "definitions": [
+    {
+      "subName": "_white",
+      "modelName": "hospital_bed",
+      "name": "Hospital Bed (white)",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:5"]
+      ]
+    },
+    {
+      "subName": "_blue",
+      "modelName": "hospital_bed",
+      "name": "Hospital Bed (blue)",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:5"]
+      ]
+    },
+    {
+      "subName": "_white_blood",
+      "modelName": "hospital_bed",
+      "name": "Hospital Bed (bloody white)",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:5","minecraft:rotten_flesh:0:1"]
+      ]
+    },
+    {
+      "subName": "_blue_blood",
+      "modelName": "hospital_bed",
+      "name": "Hospital Bed (bloody blue)",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:5","minecraft:rotten_flesh:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 16,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:10","minecraft:wool:0:2"]
+    ]
+  }
+}

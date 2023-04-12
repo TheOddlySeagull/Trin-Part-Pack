@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_ld4_l6m_t14_v12_springbok",
+      "name": "model LD4-l6M-T14-V12 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-l6M-T14-V12 chassis",
+    "description": "Used in:\n- Trin Springbok",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:30"]
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generic": {
+    "type": "seat"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "_blue",
+      "modelName": "trin_seat_frying_pan",
+      "name": "Old School Pan Seat (blue)",
+      "extraMaterialLists": [
+        ["minecraft:dye:4:2"]
+      ]
+    },
+    {
+      "subName": "_gray",
+      "modelName": "trin_seat_frying_pan",
+      "name": "Old School Pan Seat (gray)",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:2"]
+      ]
+    },
+    {
+      "subName": "_green",
+      "modelName": "trin_seat_frying_pan",
+      "name": "Old School Pan Seat (green)",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:2"]
+      ]
+    },
+    {
+      "subName": "_orange",
+      "modelName": "trin_seat_frying_pan",
+      "name": "Old School Pan Seat (orange)",
+      "extraMaterialLists": [
+        ["minecraft:dye:14:2"]
+      ]
+    },
+    {
+      "subName": "_red",
+      "modelName": "trin_seat_frying_pan",
+      "name": "Old School Pan Seat (red)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:2"]
+    ],
+    "stackSize": 64
+  }
+}

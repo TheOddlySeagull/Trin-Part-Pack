@@ -1,0 +1,23 @@
+{
+  "generic": {
+    "type": "generic_lightbar",
+    "width": 0.5,
+    "height": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Red Modern Lightbar",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "b lights/",
+  "packID": "iv_tpp",
+  "systemName": "car_roof_lightbar_r",
+  "classification": "part",
+  "general": {
+    "name": "Red Modern Lightbar",
+    "materials": ["minecraft:dye:1:2","minecraft:iron_ingot:0:4","minecraft:glass_pane:0:2"],
+    "stackSize": 16
+  }
+}

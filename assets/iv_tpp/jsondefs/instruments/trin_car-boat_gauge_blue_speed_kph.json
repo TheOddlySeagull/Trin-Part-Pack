@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "textureXCenter": 64,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "speed",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,6.480000019073486],
+          "offset": -135.0
+        }
+      ]
+    },
+    {
+      "textureXCenter": 704,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_blue_speed_kph",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin Blue gauge - speedometer (KPH)",
+    "description": "Indicates speed.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:12:1","minecraft:dye:0:1"]
+  }
+}

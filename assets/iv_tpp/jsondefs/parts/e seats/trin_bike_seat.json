@@ -1,0 +1,28 @@
+{
+  "generic": {
+    "type": "seat_motorcycle"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_bike_seat",
+      "name": "Trin Bike Seat",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin Bike Seat",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:0:2","minecraft:wool:0:1","minecraft:leather:0:1"]
+    ],
+    "stackSize": 64
+  }
+}

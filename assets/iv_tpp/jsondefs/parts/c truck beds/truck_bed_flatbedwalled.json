@@ -1,0 +1,177 @@
+{
+  "generic": {
+    "type": "generic_truckbed",
+    "width": 3.0,
+    "height": 0.2
+  },
+  "parts": [
+    {
+      "pos": [-0.875,0.53125,-0.75],
+      "rot": [2.0,4.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-0.75],
+      "rot": [-5.0,0.0,7.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-0.75],
+      "rot": [2.0,4.0,6.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [-0.875,0.53125,-1.625],
+      "rot": [1.0,0.0,-3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-1.625],
+      "rot": [-3.0,-1.0,-3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-1.625],
+      "rot": [3.0,2.0,7.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [-0.875,0.53125,-2.5],
+      "rot": [0.0,-4.0,1.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-2.5],
+      "rot": [2.0,-3.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-2.5],
+      "rot": [2.0,1.0,3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [-0.875,0.53125,-3.375],
+      "rot": [-3.0,1.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-3.375],
+      "rot": [8.0,1.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-3.375],
+      "rot": [-4.0,-3.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [-0.875,0.53125,-4.25],
+      "rot": [-1.0,-2.0,3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-4.25],
+      "rot": [-3.0,0.0,3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-4.25],
+      "rot": [2.0,0.0,-1.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [-0.875,0.53125,-5.125],
+      "rot": [6.0,-2.0,0.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.0,0.53125,-5.125],
+      "rot": [3.0,1.0,-3.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    },
+    {
+      "pos": [0.875,0.53125,-5.125],
+      "rot": [-1.0,-3.0,2.0],
+      "maxValue": 3.0,
+      "types": ["interactable_crate"]
+    }
+  ],
+  "collisionGroups": [
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [0.0,0.71875,-6.0],
+          "width": 0.3125,
+          "height": 0.125,
+          "variableName": "door_bed",
+          "variableType": "toggle"
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "door_bed",
+          "axis": [0.0,-0.625,-0.625]
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Truck Bed - Flatbed With Walls",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "door_bed",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door_bed",
+            "centerPoint": [0.0,0.0625,-6.0],
+            "axis": [-90.0,0.0,0.0],
+            "duration": 20,
+            "forwardsStartSound": "iv_tpp:bootopen",
+            "reverseEndSound": "iv_tpp:bootclose"
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "customVariables": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Truck Bed - Flatbed With Walls",
+    "health": 100,
+    "materialLists": [
+      ["iv_tpp:metal_pile_4:0:3","minecraft:iron_ingot:0:30"]
+    ]
+  }
+}

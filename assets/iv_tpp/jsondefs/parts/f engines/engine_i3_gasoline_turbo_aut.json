@@ -1,0 +1,298 @@
+{
+  "generic": {
+    "type": "engine_car"
+  },
+  "engine": {
+    "type": "normal",
+    "isAutomatic": true,
+    "starterPower": 77,
+    "shiftSpeed": 1,
+    "revResistance": 5,
+    "maxRPM": 10000,
+    "maxSafeRPM": 8500,
+    "idleRPM": 1100,
+    "startRPM": 600,
+    "revlimitRPM": 8200,
+    "revlimitBounce": 4,
+    "stallRPM": 400,
+    "engineWinddownRate": 100,
+    "heatingCoefficient": 0.8,
+    "coolingCoefficient": 1.1,
+    "engineWearFactor": 1.0,
+    "fuelConsumption": 0.15,
+    "gearRatios": [-4.0,0.0,3.0,2.2,1.4,1.0,0.75],
+    "upShiftRPM": [0,0,7000,7000,6800,6600,6400],
+    "downShiftRPM": [0,0,4500,4500,4500,4500,4500],
+    "fuelType": "gasoline",
+    "superchargerFuelConsumption": 0.15,
+    "superchargerEfficiency": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_engine_i3_turbo",
+      "name": "Trin Turbo Charged I-3 Engine, gasoline automatic",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "iv_tpp:engine_sputter",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "iv_tpp:engine_badshift",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_badshift",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_badshift",
+            "axis": [0.0,0.5,0.0],
+            "duration": 20
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "speed",
+            "axis": [0.0,0.05,0.0],
+            "offset": 0.2
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:engine_cranking_1",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_starter",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.15,0.0],
+            "clampMin": 0.15,
+            "clampMax": 0.15
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,6.0,0.0],
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:trin_biturbine_engine_running",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.25,0.0]
+          },
+          {
+            "animationType": "translation",
+            "variable": "throttle",
+            "axis": [0.0,0.025,0.0],
+            "duration": 5
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,1.55,0.0],
+            "clampMax": 0.95
+          },
+          {
+            "animationType": "translation",
+            "variable": "throttle",
+            "axis": [0.0,1.0,0.0],
+            "duration": 5
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:engine_i3_idle",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.25,0.0],
+            "offset": 0.25
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,3.0,0.0]
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:engine_i3_high",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,0.7,0.0],
+            "offset": -0.3
+          },
+          {
+            "animationType": "translation",
+            "variable": "throttle",
+            "axis": [0.0,0.6,0.0]
+          },
+          {
+            "animationType": "translation",
+            "variable": "engine_starting",
+            "axis": [0.0,1.5,0.0],
+            "duration": 5,
+            "reverseDelay": 10
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent_safe",
+            "axis": [0.0,1.5,0.0]
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 115.556,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "scale": 2.5,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 121.111,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_oilleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "FF0000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_fuelleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin Turbo Charged I-3 Engine, gasoline automatic",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:12:2","minecraft:piston:0:3","minecraft:iron_ingot:0:17"]
+    ],
+    "repairMaterialLists": [
+      ["minecraft:piston:0:3","minecraft:iron_ingot:0:8"]
+    ]
+  }
+}

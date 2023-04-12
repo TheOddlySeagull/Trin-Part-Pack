@@ -1,0 +1,16 @@
+# Blender v2.79 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib service_sticker_text.mtl
+o service_sticker_text
+v -0.625000 0.125000 -0.000000
+v 0.625000 0.125000 0.000000
+v 0.625000 -0.125000 0.000000
+v -0.625000 -0.125000 -0.000000
+vt 1.789062 0.605469
+vt 1.398438 0.605469
+vt 1.398438 0.527344
+vt 1.789062 0.527344
+vn -0.0000 0.0000 1.0000
+usemtl ModelMaterial.001
+s off
+f 2/1/1 1/2/1 4/3/1 3/4/1

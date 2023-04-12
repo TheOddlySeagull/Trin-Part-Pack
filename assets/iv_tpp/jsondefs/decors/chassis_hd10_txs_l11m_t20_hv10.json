@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_hd10_txs_l11m_t20_hv10",
+      "name": "model HD10-L11M-T20-HV10 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model HD10-L11M-T20-HV10 chassis",
+    "description": "Used in:\n- Trin Gobig TXS Pickup 6x6",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:55"]
+    ]
+  }
+}

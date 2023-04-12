@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "textureXCenter": 576,
+      "textureYCenter": 832,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 448,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,18.459999084472656],
+          "offset": -120.0
+        }
+      ]
+    },
+    {
+      "textureXCenter": 704,
+      "textureYCenter": 448,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 832,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_cyber_electric",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin CyberPunk Gauge - elecricity",
+    "description": "Indicates electrical power.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:1:1","minecraft:dye:14:1"]
+  }
+}

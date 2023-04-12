@@ -1,0 +1,111 @@
+{
+  "generic": {
+    "type": "generic_carsticker",
+    "width": 0.25,
+    "height": 0.25
+  },
+  "definitions": [
+    {"_comment": "Medium, Police",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+
+      "textureName": "service_sticker_coa_police_generic",
+
+      "description": "Generic Police",
+      "subName": "_police_generic",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Gramados Police",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+
+      "textureName": "service_sticker_coa_police_gramados",
+
+      "description": "Gramados Police",
+      "subName": "_police_gramados",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Sheriff",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_police_sheriff",
+
+      "description": "Sheriff",
+      "subName": "_police_sheriff",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Ambulance",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+
+      "textureName": "service_sticker_coa_ambulance",
+
+      "description": "Ambulance",
+      "subName": "_ambulance",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Fire Department",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_firedept",
+
+      "description": "Fire Department",
+      "subName": "_firedept",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Gas SOS",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_gassos",
+
+      "description": "Gas SOS",
+      "subName": "_gassos",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Highway Security",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_hws",
+
+      "description": "Highway Security",
+      "subName": "_hws",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Taxi",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_taxi_generic",
+
+      "description": "Taxi",
+      "subName": "_taxi_generic",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Medium, Gramados Taxi",
+      "name": "Medium Service Coats Of Arms Sticker",
+      "modelName": "service_sticker_coa_medium",
+      
+      "textureName": "service_sticker_coa_taxi_gramados",
+
+      "description": "Gramados Taxi",
+      "subName": "_taxi_gramados",
+      "extraMaterialLists": []
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 20,
+    "stackSize": 64,
+    "materialLists": [
+      []
+    ]
+  }
+}

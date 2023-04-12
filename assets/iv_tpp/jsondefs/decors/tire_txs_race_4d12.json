@@ -1,0 +1,47 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "tire_txs_race_4d12",
+      "name": "Trin Compact Tire (12*4) - 4/12R4 - TXS Race",
+      "description": "Use with:\n- compact TXS race rim (4*2)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_blue",
+      "modelName": "tire_txs_race_4d12",
+      "name": "Trin Compact Tire (12*4) - 4/12R4 - TXS Race With Blue Trim",
+      "description": "Use with:\n- compact TXS race rim (4*2)",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:2"]
+      ]
+    },
+    {
+      "subName": "_red",
+      "modelName": "tire_txs_race_4d12",
+      "name": "Trin Compact Tire (12*4) - 4/12R4 - TXS Race With Red Trim",
+      "description": "Use with:\n- compact TXS race rim (4*2)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:wool:7:1"]
+    ]
+  }
+}

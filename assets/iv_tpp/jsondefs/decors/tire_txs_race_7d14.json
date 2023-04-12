@@ -1,0 +1,47 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "tire_txs_race_7d14",
+      "name": "Trin Standard Tire (14*7) - 7/14R5 - TXS race",
+      "description": "Use with:\n- standard TXS race rim (5*6)",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_blue",
+      "modelName": "tire_txs_race_7d14",
+      "name": "Trin Standard Tire (14*7) - 7/14R5  - TXS Race With Blue Trim",
+      "description": "Use with:\n- standard TXS race rim (5*6)",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:4"]
+      ]
+    },
+    {
+      "subName": "_red",
+      "modelName": "tire_txs_race_7d14",
+      "name": "Trin Standard Tire (14*7) - 7/14R5  - TXS Race With Red Trim",
+      "description": "Use with:\n- standard TXS race rim (5*6)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:4"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:wool:7:2"]
+    ]
+  }
+}

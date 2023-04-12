@@ -1,0 +1,27 @@
+{
+  "generic": {
+    "type": "generic_bbq_exhaust",
+    "width": 0.125,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Semi truck BBQ tuning exhaust",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Semi truck BBQ tuning exhaust",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4"]
+    ]
+  }
+}

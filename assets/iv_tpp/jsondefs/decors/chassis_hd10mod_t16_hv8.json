@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_hd10mod_t16_hv8",
+      "name": "model MD10-L10M-T16-HV8 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model MD10-L10M-T16-HV8 chassis",
+    "description": "Used in:\n- Trin Capro",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:50"]
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generic": {
+    "type": "generic_dashboard_console",
+    "width": 0.5,
+    "height": 0.5
+  },
+  "definitions": [
+    {
+      "subName": "_lowend_nr_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "No Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_nr_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "No Radio\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_nr_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "No Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_nr_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "No Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_nr_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "No Radio\nBrown",
+      "extraMaterialLists": []
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 20,
+    "materialLists": [
+      []
+    ]
+  }
+}

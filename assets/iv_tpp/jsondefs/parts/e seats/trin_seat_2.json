@@ -1,0 +1,75 @@
+{
+  "generic": {
+    "type": "seat"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "_gray",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Gray",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:2"]
+      ]
+    },
+    {
+      "subName": "_white",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, White",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:2"]
+      ]
+    },
+    {
+      "subName": "_red",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Red",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2"]
+      ]
+    },
+    {
+      "subName": "_beige",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Tan",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:2"]
+      ]
+    },
+    {
+      "subName": "_brown",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Brown",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:2"]
+      ]
+    },
+    {
+      "subName": "_black",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Black",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:2"]
+      ]
+    },
+    {
+      "subName": "_junk",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Junk",
+      "extraMaterialLists": [
+        ["minecraft:dirt:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:3","minecraft:string:0:4","minecraft:wool:0:3"]
+    ],
+    "stackSize": 64
+  }
+}

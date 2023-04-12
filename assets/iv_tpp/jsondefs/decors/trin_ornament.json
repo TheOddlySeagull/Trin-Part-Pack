@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 0.25,
+    "height": 0.5,
+    "depth": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_ornament",
+      "name": "Trin Hood Ornament",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin Hood Ornament",
+    "stackSize": 64,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:1"]
+    ]
+  }
+}

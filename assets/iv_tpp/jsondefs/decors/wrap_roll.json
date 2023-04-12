@@ -1,0 +1,92 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_coal",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Coal Wrap",
+      "extraMaterialLists": [
+        ["minecraft:coal:0:1"]
+      ]
+    },
+    {
+      "subName": "_diamond",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Diamond Wrap",
+      "extraMaterialLists": [
+        ["minecraft:diamond:0:1"]
+      ]
+    },
+    {
+      "subName": "_driveschool",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Drive School Wrap",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:1","minecraft:dye:15:1"]
+      ]
+    },
+    {
+      "subName": "_emerald",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Emerald Wrap",
+      "extraMaterialLists": [
+        ["minecraft:emerald:0:1"]
+      ]
+    },
+    {
+      "subName": "_gold",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Dold Wrap",
+      "extraMaterialLists": [
+        ["minecraft:gold_ingot:0:1"]
+      ]
+    },
+    {
+      "subName": "_iron",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Iron Wrap",
+      "extraMaterialLists": [
+        ["minecraft:iron_ingot:0:1"]
+      ]
+    },
+    {
+      "subName": "_lapislazuli",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Lapis Lazuli Wrap",
+      "extraMaterialLists": [
+        ["minecraft:dye:4:1"]
+      ]
+    },
+    {
+      "subName": "_quartz",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Quartz Wrap",
+      "extraMaterialLists": [
+        ["minecraft:quartz:0:1"]
+      ]
+    },
+    {
+      "subName": "_redstone",
+      "modelName": "wrap_roll",
+      "name": "Car Wrap Roll - Redstone Wrap",
+      "extraMaterialLists": [
+        ["minecraft:redstone:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 16,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:1","minecraft:paper:0:5"]
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "generic": {
+    "type": "engine_car"
+  },
+  "engine": {
+    "type": "normal",
+    "isAutomatic": true,
+    "starterPower": 45,
+    "shiftSpeed": 20,
+    "revResistance": 10,
+    "maxRPM": 3000,
+    "maxSafeRPM": 2750,
+    "idleRPM": 500,
+    "startRPM": 600,
+    "revlimitRPM": 2612,
+    "revlimitBounce": 10,
+    "stallRPM": 325,
+    "engineWinddownRate": 10,
+    "heatingCoefficient": 1.0,
+    "coolingCoefficient": 1.25,
+    "engineWearFactor": 1.0,
+    "fuelConsumption": 1.0,
+    "gearRatios": [-2.0,0.0,3.0,2.0,1.5,1.0,0.75],
+    "upShiftRPM": [0,0,2500,2400,2300,2200,2200],
+    "downShiftRPM": [0,0,1200,1200,1300,1400,1500],
+    "fuelType": "diesel",
+    "superchargerFuelConsumption": 1.0,
+    "superchargerEfficiency": 1.0,
+    "isCrankingNotPitched": true
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Trin diesel truck V10",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "iv_tpp:trin_v10_fat_diesel_starting",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_running",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:trin_v10_fat_diesel_stopping",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_running"
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:trin_v10_fat_diesel_sputter",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mts:engine_shifting_grinding",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_badshift",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "iv_tpp:trin_v10_fat_diesel_cranking",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_starter",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm",
+            "axis": [0.0,0.002,0.0]
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:trin_v10_fat_diesel_running",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm",
+            "axis": [0.0,7.0E-4,0.0],
+            "offset": 0.35
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 115.556,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "scale": 2.5,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 121.111,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_oilleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "FF0000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_fuelleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Trin diesel truck V10",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:piston:0:10","minecraft:iron_ingot:0:20"]
+    ],
+    "repairMaterialLists": [
+      ["minecraft:piston:0:10","minecraft:iron_ingot:0:10"]
+    ]
+  }
+}

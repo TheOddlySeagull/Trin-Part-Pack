@@ -1,0 +1,298 @@
+{
+  "generic": {
+    "type": "generic_sign_busdestination",
+    "width": 2.0,
+    "height": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_0",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?0 - No Service",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_1",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?1 - Downtown",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?2 - Aether",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_3",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?3 - North",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_4",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?4 - South",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_5",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?5 - East",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_6",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?6 - West",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_7",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?7 - Airport",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_8",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?8 - Port",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_9",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?9 - Parking",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_10",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?10 - Going Far",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_11",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?11 - Huworia",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_12",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?12 - Romen",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_13",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?13 - Gramados",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_14",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?14 - Tuchmar",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_15",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?15 - TEOM",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_16",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?16 - Intorial",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_17",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?17 - Springfield",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_18",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?18 - Solva",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_22",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?22 - TCGad",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_23",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?23 - Levitt",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_24",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?24 - Greenfield",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_25",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?25 - Pripyat",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_26",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?26 - The Valley",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_27",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?27 - Cheapo-Cost",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_28",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?28 - Beacon",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_30",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?30 - Emerald City",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_31",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?31 - Paw Ridge",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_32",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?32 - Mahaska",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_35",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?35 - Alenis",
+      "extraMaterialLists": [
+        []
+      ]
+    },
+    {
+      "subName": "_667",
+      "modelName": "bus_destination_sign",
+      "name": "Bus destination banner/sign",
+      "description": "Bus n?667 - Blackthorne",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:10"]
+    ]
+  }
+}

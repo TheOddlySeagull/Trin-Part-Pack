@@ -1,0 +1,53 @@
+{
+  "generic": {
+    "type": "generic_rollbar_single",
+    "width": 0.625,
+    "height": 0.5
+  },
+  "definitions": [
+    {
+      "subName": "_black",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - Black",
+      "extraMaterials": ["minecraft:dye:0:1"]
+    },
+    {
+      "subName": "_chrome",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - Chrome",
+      "extraMaterials": ["minecraft:dye:7:1"]
+    },
+    {
+      "subName": "_gray",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - Gray",
+      "extraMaterials": ["minecraft:dye:8:1"]
+    },
+    {
+      "subName": "_txs",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - TXS",
+      "extraMaterials": ["minecraft:dye:1:1"]
+    },
+    {
+      "subName": "_white",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - White",
+      "extraMaterials": ["minecraft:dye:15:1"]
+    },
+    {
+      "subName": "_yellow",
+      "modelName": "roll_bar_small",
+      "name": "Single Seat Roll Bar - Yellow",
+      "extraMaterials": ["minecraft:dye:11:1"]
+    }
+  ],
+  "prefixFolders": "a gadgets/",
+  "packID": "iv_tpp",
+  "systemName": "roll_bar_small",
+  "classification": "part",
+  "general": {
+    "materials": ["minecraft:iron_ingot:0:4"],
+    "stackSize": 32
+  }
+}

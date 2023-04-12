@@ -1,0 +1,38 @@
+{
+  "generic": {
+    "type": "generic_bullbar",
+    "width": 0.5,
+    "height": 0.5
+  },
+  "parts": [
+    {
+      "pos": [-0.3125,0.59375,0.15938],
+      "minValue": 0.05,
+      "maxValue": 0.5,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [0.3125,0.59375,0.15938],
+      "minValue": 0.05,
+      "maxValue": 0.5,
+      "types": ["generic_ledlight"]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Large Bull Bar",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {},
+  "prefixFolders": "a gadgets/",
+  "packID": "iv_tpp",
+  "systemName": "bull_bar_l_p",
+  "classification": "part",
+  "general": {
+    "name": "Large Bull Bar",
+    "materials": ["minecraft:dye:0:4","minecraft:iron_ingot:0:6"],
+    "stackSize": 8
+  }
+}

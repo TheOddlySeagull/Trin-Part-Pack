@@ -1,0 +1,46 @@
+{
+  "generic": {
+    "type": "propeller",
+    "movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "propeller_rotation",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [0.0,0.0,1.0]
+      }
+    ]
+  },
+  "propeller": {
+    "pitch": 40,
+    "diameter": 24
+  },
+  "definitions": [
+    {
+      "subName": "_carbonfiber",
+      "modelName": "trin_boat_engine_propeller_medium",
+      "name": "Trin Medium Boat Engine Propeller (Carbon Fiber)",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.carbon_fiber_pile:0:1"]
+      ]
+    },
+    {
+      "subName": "_iron",
+      "modelName": "trin_boat_engine_propeller_medium",
+      "name": "Trin Medium Boat Engine Propeller (Default)",
+      "extraMaterialLists": [
+        ["minecraft:iron_ingot:0:8"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      []
+    ]
+  }
+}

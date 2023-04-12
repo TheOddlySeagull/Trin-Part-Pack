@@ -1,0 +1,74 @@
+{
+  "generic": {
+    "type": "seat_furniture"
+  },
+  "seat": {},
+  "definitions": [
+    {
+      "subName": "_1",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:2"]
+      ]
+    },
+    {
+      "subName": "_2",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:1","minecraft:dye:15:1"]
+      ]
+    },
+    {
+      "subName": "_3",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:1","minecraft:dye:1:1"]
+      ]
+    },
+    {
+      "subName": "_4",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:1","minecraft:dye:0:1"]
+      ]
+    },
+    {
+      "subName": "_5",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:2"]
+      ]
+    },
+    {
+      "subName": "_6",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:2"]
+      ]
+    },
+    {
+      "subName": "_7",
+      "modelName": "furniture_chair_hp_1",
+      "name": "Furniture Chair",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:2"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["minecraft:wooden_slab:0:1","minecraft:stick:0:6"]
+    ]
+  }
+}

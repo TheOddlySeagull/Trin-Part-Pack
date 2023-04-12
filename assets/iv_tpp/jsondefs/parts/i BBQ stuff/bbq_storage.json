@@ -1,0 +1,30 @@
+{
+  "generic": {
+    "type": "interactable_crate_bbq"
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "bbq_storage",
+      "name": "BBQ recovery tray",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "BBQ recovery tray",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:5"]
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "generic": {
+    "type": "engine_boat"
+  },
+  "engine": {
+    "type": "normal",
+    "isAutomatic": true,
+    "starterPower": 45,
+    "shiftSpeed": 20,
+    "revResistance": 10,
+    "maxRPM": 6000,
+    "maxSafeRPM": 4250,
+    "idleRPM": 500,
+    "startRPM": 600,
+    "revlimitRPM": -1,
+    "revlimitBounce": 10,
+    "stallRPM": 325,
+    "engineWinddownRate": 10,
+    "heatingCoefficient": 1.0,
+    "coolingCoefficient": 1.0,
+    "engineWearFactor": 1.0,
+    "fuelConsumption": 1.3,
+    "gearRatios": [-4.0,0.0,0.75],
+    "fuelType": "gasoline",
+    "superchargerFuelConsumption": 1.0,
+    "superchargerEfficiency": 1.0
+  },
+  "parts": [
+    {
+      "pos": [0.0,-1.03125,-0.8125],
+      "maxValue": 60.0,
+      "types": ["propeller"]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "_carbonfiber",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (Carbon Fiber)",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.carbon_fiber_pile:0:2"]
+      ]
+    },
+    {
+      "subName": "_electricblue",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (Electric Blue)",
+      "extraMaterialLists": [
+        ["minecraft:dye:12:2","minecraft:dye:6:1"]
+      ]
+    },
+    {
+      "subName": "_firered",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (Fire Red)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:3"]
+      ]
+    },
+    {
+      "subName": "_pureblack",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (Pure Black)",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:3"]
+      ]
+    },
+    {
+      "subName": "_silver",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (Silver)",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:3"]
+      ]
+    },
+    {
+      "subName": "_white",
+      "modelName": "trin_boat_v8",
+      "name": "Trin Outboard V8 Boat Engine (White)",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:2","minecraft:dye:8:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "iv_tpp:trin_boat_v8_starting",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_running",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:trin_boat_v8_stopping",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_running"
+          }
+        ]
+      },
+      {
+        "name": "iv_tpp:trin_boat_v8_sputter",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mts:engine_shifting_grinding",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_badshift",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "iv_tpp:trin_boat_v8_cranking",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_starter",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "electric_power",
+            "axis": [0.0,0.1,0.0],
+            "offset": 0.3,
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      },
+      {
+        "name": "iv_tpp:trin_boat_v8_running",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_powered",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent",
+            "axis": [0.0,0.3999999761581421,0.0],
+            "offset": 0.6
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_rpm_percent",
+            "axis": [0.0,1.0,0.0],
+            "offset": 1.0
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 115.556,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "spawnEveryTick": true,
+        "quantity": 1,
+        "scale": 2.5,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_temp",
+            "clampMin": 121.111,
+            "clampMax": 999.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "000000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_oilleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "drip",
+        "quantity": 1,
+        "color": "FF0000",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_fuelleak",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "cycle_10_20",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      ["mts:iv_tpp.engine_v8_gasoline_normal_aut:0:1","mts:iv_tpp.metal_pile_4:0:1","minecraft:iron_ingot:0:2"]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "textureXCenter": 128,
+      "textureYCenter": 960,
+      "textureWidth": 80,
+      "textureHeight": 80,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "translation",
+          "variable": "engine_gear",
+          "axis": [80.0,0.0,0.0]
+        }
+      ]
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 960,
+      "textureWidth": 80,
+      "textureHeight": 80,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_gear",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin Gear Indicator",
+    "description": "Indicates current gear.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:8:1"]
+  }
+}

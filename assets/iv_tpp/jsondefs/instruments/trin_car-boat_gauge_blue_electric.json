@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "textureXCenter": 576,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,12.300000190734863],
+          "offset": -80.0
+        }
+      ]
+    },
+    {
+      "textureXCenter": 704,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 960,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true,
+      "overlayTexture": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "trin_car-boat_gauge_blue_electric",
+  "classification": "instrument",
+  "general": {
+    "name": "Trin Blue Gauge - elecricity",
+    "description": "Indicates electrical power.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:12:1","minecraft:dye:0:1"]
+  }
+}

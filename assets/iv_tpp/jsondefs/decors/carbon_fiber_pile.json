@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 0.5,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "carbon_fiber_pile",
+      "name": "Carbon fiber panels",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Carbon fiber panels",
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:coal:0:10","minecraft:paper:0:2"]
+    ]
+  }
+}

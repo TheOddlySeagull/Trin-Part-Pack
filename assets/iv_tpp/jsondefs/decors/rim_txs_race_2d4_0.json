@@ -1,0 +1,52 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_bluedemon",
+      "modelName": "rim_txs_race_2d4_0",
+      "name": "Trin Rim (4*2) - TXS Lusty Sparkle Rim - Blue Demon",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:2","minecraft:dye:4:2"]
+      ]
+    },
+    {
+      "subName": "_goldghost",
+      "modelName": "rim_txs_race_2d4_0",
+      "name": "Trin Rim (4*2) - TXS Lusty Sparkle Rim - Golden Ghost",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.wrap_roll_gold:0:1","minecraft:dye:7:2"]
+      ]
+    },
+    {
+      "subName": "_flamingchrome",
+      "modelName": "rim_txs_race_2d4_0",
+      "name": "Trin Rim (4*2) - TXS Lusty Sparkle Rim - Flaming Chrome",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:3","minecraft:dye:1:1"]
+      ]
+    },
+    {
+      "subName": "_fataltxs",
+      "modelName": "rim_txs_race_2d4_0",
+      "name": "Trin Rim (4*2) - TXS Lusty Sparkle Rim - Fatal TXS",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:3","minecraft:dye:1:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:1"]
+    ]
+  }
+}

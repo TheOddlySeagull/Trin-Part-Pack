@@ -1,0 +1,22 @@
+{
+  "generic": {
+    "type": "interactable_crate"
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_crate1",
+      "name": "Trin Crate",
+      "extraMaterials": ["minecraft:dye:8:2"]
+    }
+  ],
+  "general": {
+    "name": "Trin Crate",
+    "materials": ["minecraft:iron_ingot:0:4"],
+    "stackSize": 4
+  }
+}

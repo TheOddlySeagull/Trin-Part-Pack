@@ -1,0 +1,169 @@
+{
+  "generic": {
+    "type": "ground_wheel",
+    "movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "ground_rotation",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [1.0,0.0,0.0]
+      }
+    ]
+  },
+  "ground": {
+    "isWheel": true,
+    "width": 0.34375,
+    "height": 0.6875,
+    "flatHeight": 0.3125,
+    "motiveFriction": 1.0,
+    "lateralFriction": 0.875,
+    "frictionModifiers": {
+      "snow": -0.25,
+      "ice": -0.5,
+      "dirt": -0.125,
+      "dirt_wet": -0.25,
+      "sand": -0.25,
+      "sand_wet": -0.375,
+      "normal_wet": -0.125
+    }
+  },
+  "definitions": [
+    {
+      "subName": "_steel",
+      "modelName": "wheel_3d11_0",
+      "name": "Trin Compact Wheel (11*3) - Ministeel Rim - Steel - Classic Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_3d11_classic:0:1","mts:iv_tpp.rim_3d5_0_steel:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "tire",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat"
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "mts:wheel_blowout",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "name": "mts:wheel_striking",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_contacted",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mts:wheel_skidding",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_onground",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat"
+          },
+          {
+            "animationType": "visibility",
+            "variable": "speed",
+            "clampMin": 0.0125,
+            "clampMax": 65535.0
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "slip",
+            "clampMin": -1024.0,
+            "clampMax": -0.5
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "slip",
+            "clampMin": 0.5,
+            "clampMax": 1024.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "ground_skidding",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "slip",
+            "axis": [0.0,0.0625,0.0],
+            "offset": -0.375,
+            "clampMax": 0.5,
+            "absolute": true
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "slip",
+            "axis": [0.0,-0.0125,0.0],
+            "offset": 1.9875,
+            "clampMin": 1.5,
+            "clampMax": 1.75,
+            "absolute": true
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "quantity": 1,
+        "duration": 10,
+        "scale": 4.0,
+        "color": "FFFFFF",
+        "initialVelocity": [0.0,-0.15,0.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 100,
+    "materialLists": [
+      []
+    ],
+    "repairMaterialLists": [
+      ["mts:iv_tpp.tire_3d11_classic:0:1"]
+    ],
+    "stackSize": 4
+  }
+}

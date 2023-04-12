@@ -1,0 +1,36 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_red",
+      "modelName": "fire_extinguisher",
+      "name": "Fire Extinguisher (red)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:2"]
+      ]
+    },
+    {
+      "subName": "_yellow",
+      "modelName": "fire_extinguisher",
+      "name": "Fire Extinguisher (yellow)",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:2"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 16,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:5","minecraft:paper:0:1"]
+    ]
+  }
+}

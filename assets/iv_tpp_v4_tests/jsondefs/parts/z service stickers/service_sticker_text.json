@@ -1,0 +1,51 @@
+{
+  "generic": {
+    "type": "generic_carsticker",
+    "width": 0.25,
+    "height": 0.25
+  },
+  "definitions": [
+    {"_comment": "Generic Police",
+      "name": "Service Text Sticker",
+      "modelName": "service_sticker_text",
+
+      "textureName": "service_sticker_text_police_generic",
+      
+      "description": "Generic Police",
+      "subName": "_police_generic",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Gramados Police",
+      "name": "Service Text Sticker",
+      "modelName": "service_sticker_text",
+
+      "textureName": "service_sticker_text_police_gramados",
+      
+      "description": "Gramados Police",
+      "subName": "_police_gramados",
+      "extraMaterialLists": []
+    },
+    {"_comment": "sheriff Police",
+      "name": "Service Text Sticker",
+      "modelName": "service_sticker_text",
+
+      "textureName": "service_sticker_text_police_sheriff",
+      
+      "description": "Sheriff Police",
+      "subName": "_police_sheriff",
+      "extraMaterialLists": []
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "health": 20,
+    "stackSize": 64,
+    "materialLists": [
+      []
+    ]
+  }
+}

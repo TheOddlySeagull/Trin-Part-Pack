@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_ld4_l8m_t14_v12_flugoral",
+      "name": "model LD4-l8M-T14-V12 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-l8M-T14-V12 chassis",
+    "description": "Used in:\n- Trin Flugoral",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:40"]
+    ]
+  }
+}

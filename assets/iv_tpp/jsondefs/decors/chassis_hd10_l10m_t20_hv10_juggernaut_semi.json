@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_hd10_l10m_t20_hv10_juggernaut_semi",
+      "name": "model HD10-L10M-T20-HV10 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model HD10-L10M-T20-HV10 chassis",
+    "description": "Used in:\n- Trin Juggernaut Semi Truck",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:35"]
+    ]
+  }
+}

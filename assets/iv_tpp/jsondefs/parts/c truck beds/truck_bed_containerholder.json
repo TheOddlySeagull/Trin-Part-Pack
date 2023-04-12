@@ -1,0 +1,35 @@
+{
+  "generic": {
+    "type": "generic_truckbed",
+    "width": 3.0,
+    "height": 0.1
+  },
+  "parts": [
+    {
+      "pos": [0.0,0.0625,-3.0],
+      "maxValue": 100.0,
+      "types": ["interactable_container_single"]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Truck Bed - Container Transport Platform",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Truck Bed - Container Transport Platform",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:20"]
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 1.0,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_redandblack",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Red & Black",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:5","minecraft:dye:0:5"]
+      ]
+    },
+    {
+      "subName": "_forest",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Forest",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:6","minecraft:dye:0:2","minecraft:dye:15:2"]
+      ]
+    },
+    {
+      "subName": "_steelblueandteal",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Steet Blue & Teal",
+      "extraMaterialLists": [
+        ["minecraft:dye:4:2","minecraft:dye:7:2","minecraft:dye:2:1","minecraft:dye:6:4","minecraft:dye:15:1"]
+      ]
+    },
+    {
+      "subName": "_tungstenandelectricblue",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Tungsten & Electric Blue",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:5","minecraft:dye:12:4","minecraft:dye:6:1"]
+      ]
+    },
+    {
+      "subName": "_shagbark",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Shagbark",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:6","minecraft:dye:0:2","minecraft:dye:15:2"]
+      ]
+    },
+    {
+      "subName": "_bubblegum",
+      "modelName": "paint_double_bucket",
+      "name": "Paint Bucket - Bubble Gum",
+      "extraMaterialLists": [
+        ["minecraft:dye:13:5","minecraft:dye:5:5"]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 8,
+    "materialLists": [
+      ["mts:iv_tpp.paint_empty_bucket:0:2"]
+    ]
+  }
+}

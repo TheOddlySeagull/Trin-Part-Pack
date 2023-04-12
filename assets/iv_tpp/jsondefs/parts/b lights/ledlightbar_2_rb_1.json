@@ -1,0 +1,319 @@
+{
+  "generic": {
+    "type": "generic_ledlight",
+    "width": 0.125,
+    "height": 0.125
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Red & Blue Small LED",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "&GenericLight_0000FF_F0000_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0000FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "16_4_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_FF0000_F0000_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF0000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "16_4_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_FF0000_0F000_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF0000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "12_4_4_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_0000FF_0F000_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0000FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "12_4_4_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_0000FF_00F00_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0000FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "8_4_8_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_FF0000_00F00_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF0000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "8_4_8_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_FF0000_000F0_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF0000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "4_4_12_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_0000FF_000F0_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0000FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "4_4_12_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_0000FF_0000F_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0000FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "0_4_16_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [-0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      },
+      {
+        "objectName": "&GenericLight_FF0000_0000F_111",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "FF0000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "0_4_16_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          },
+          {
+            "pos": [0.03125,0.03125,0.04749999940395355],
+            "axis": [-0.0,-0.0,1.0],
+            "flareHeight": 0.1875,
+            "flareWidth": 0.1875
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Red & Blue Small LED",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:1:1","minecraft:dye:4:1","minecraft:iron_nugget:0:1","minecraft:glowstone_dust:0:1"]
+    ],
+    "stackSize": 16
+  }
+}

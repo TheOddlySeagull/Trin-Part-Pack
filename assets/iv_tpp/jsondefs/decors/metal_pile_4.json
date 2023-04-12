@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 0.5,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "metal_pile",
+      "name": "Metal sheets - thin grill",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Metal sheets - thin grill",
+    "stackSize": 32,
+    "materialLists": [
+      ["minecraft:iron_ingot:0:4"]
+    ]
+  }
+}

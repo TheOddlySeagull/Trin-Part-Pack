@@ -1,0 +1,23 @@
+{
+  "generic": {
+    "type": "generic_roofdevice",
+    "width": 0.25,
+    "height": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Pizza Shack Car Roof Sign",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "a gadgets/",
+  "packID": "iv_tpp",
+  "systemName": "car_roof_sign_pizza_shack",
+  "classification": "part",
+  "general": {
+    "name": "Pizza Shack Car Roof Sign",
+    "materials": ["minecraft:dye:2:1","minecraft:dye:15:1","minecraft:stained_glass:14:1","minecraft:iron_ingot:0:4"],
+    "stackSize": 64
+  }
+}

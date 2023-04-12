@@ -1,0 +1,291 @@
+{
+  "motorized": {
+    "isFrontWheelDrive": true,
+    "isRearWheelDrive": true,
+    "hasOpenTop": true,
+    "emptyMass": 100,
+    "fuelCapacity": 10000,
+    "defaultFuelQty": 10000,
+    "downForce": 0.05,
+    "axleRatio": 3.0,
+    "brakingFactor": 1.0,
+    "dragCoefficient": 0.25
+  },
+  "parts": [
+    {
+      "pos": [0.34375,0.0,0.0],
+      "maxValue": 0.19,
+      "defaultPart": "iv_tpp:bbq_wheel_1",
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [-0.34375,0.0,0.0],
+      "maxValue": 0.19,
+      "defaultPart": "iv_tpp:bbq_wheel_1",
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.34375,0.0,0.4375],
+      "turnsWithSteer": true,
+      "maxValue": 0.19,
+      "defaultPart": "iv_tpp:bbq_wheel_1",
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [-0.34375,0.0,0.4375],
+      "turnsWithSteer": true,
+      "maxValue": 0.19,
+      "defaultPart": "iv_tpp:bbq_wheel_1",
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.0,1.375,0.21875],
+      "rot": [0.0,0.0,0.0],
+      "dismountPos": [0.0,1.375,1.21875],
+      "isController": true,
+      "defaultPart": "iv_tpp:bbq_grill",
+      "types": ["seat_bbq"],
+      "linkedDoors": ["bbq_door"]
+    },
+    {
+      "pos": [0.0,1.15625,0.71875],
+      "rot": [0.0,0.0,0.0],
+      "maxValue": 100.0,
+      "defaultPart": "iv_tpp:bbq_engine_charcoal",
+      "types": ["engine_bbq"],
+      "linkedDoors": ["bbq_door"]
+    },
+    {
+      "pos": [0.0,0.25,0.4375],
+      "maxValue": 2.0,
+      "types": ["generic_bullbar"]
+    },
+    {
+      "pos": [0.4375,0.84375,0.40625],
+      "maxValue": 0.2,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [-0.4375,0.84375,0.40625],
+      "maxValue": 0.2,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [0.0,1.25,0.71875],
+      "maxValue": 0.38,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [-0.5,1.28125,0.40625],
+      "rot": [0.0,0.0,90.0],
+      "maxValue": 0.38,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [0.5,1.28125,0.40625],
+      "rot": [0.0,0.0,-90.0],
+      "maxValue": 0.38,
+      "types": ["generic_ledlight"]
+    },
+    {
+      "pos": [0.0,0.67188,0.21875],
+      "rot": [0.0,0.0,0.0],
+      "maxValue": 3.0,
+      "defaultPart": "iv_tpp:bbq_storage",
+      "types": ["interactable_crate_bbq"]
+    }
+  ],
+  "collision": [
+    {
+      "pos": [0.0,0.84375,0.21875],
+      "width": 0.5,
+      "height": 0.5
+    },
+    {
+      "pos": [0.0,0.84375,-0.09375],
+      "width": 0.25,
+      "height": 0.25
+    }
+  ],
+  "doors": [
+    {
+      "name": "bbq_door",
+      "closedPos": [0.0,1.46875,0.65625],
+      "openPos": [0.0,2.46875,-0.46875],
+      "width": 0.3125,
+      "height": 0.125
+    },
+    {
+      "name": "table_r",
+      "closedPos": [-1.0,1.34375,0.21875],
+      "openPos": [-0.6875,0.71875,0.21875],
+      "width": 0.5,
+      "height": 0.5,
+      "closedByDefault": true
+    },
+    {
+      "name": "table_l",
+      "closedPos": [1.0,1.34375,0.21875],
+      "openPos": [0.6875,0.71875,0.21875],
+      "width": 0.5,
+      "height": 0.5,
+      "closedByDefault": true
+    }
+  ],
+  "connectionGroups": [
+    {
+      "groupName": "HOOKUP",
+      "hookup": true,
+      "connections": [
+        {
+          "type": "tow_bumper",
+          "pos": [0.0,0.1875,0.46875],
+          "distance": 0.0
+        },
+        {
+          "type": "tow_wheel",
+          "pos": [0.0,-0.0625,0.4375],
+          "distance": 0.0
+        }
+      ]
+    }
+  ],
+  "instruments": [],
+  "definitions": [
+    {
+      "subName": "_red",
+      "name": "red BBQ",
+      "extraMaterials": ["minecraft:dye:1:5"]
+    },
+    {
+      "subName": "_green",
+      "name": "green BBQ",
+      "extraMaterials": ["minecraft:dye:2:5"]
+    },
+    {
+      "subName": "_blue",
+      "name": "blue BBQ",
+      "extraMaterials": ["minecraft:dye:4:5"]
+    },
+    {
+      "subName": "_white",
+      "name": "white BBQ",
+      "extraMaterials": ["minecraft:dye:15:5"]
+    },
+    {
+      "subName": "_black",
+      "name": "black BBQ",
+      "extraMaterials": ["minecraft:dye:0:5"]
+    },
+    {
+      "subName": "_gray",
+      "name": "gray BBQ",
+      "extraMaterials": ["minecraft:dye:8:5"]
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "bbq_door",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "bbq_door",
+            "centerPoint": [0.0,1.46875,-0.28125],
+            "axis": [-100.0,0.0,0.0],
+            "duration": 20,
+            "forwardsStartSound": "iv_tpp:dooropen",
+            "reverseEndSound": "iv_tpp:doorclose"
+          }
+        ]
+      },
+      {
+        "objectName": "wingright",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "table_r",
+            "centerPoint": [-0.5,1.15625,0.09375],
+            "axis": [0.0,0.0,90.0],
+            "duration": 20,
+            "forwardsStartSound": "iv_tpp:dooropen",
+            "reverseEndSound": "iv_tpp:doorclose"
+          }
+        ]
+      },
+      {
+        "objectName": "wingleft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "table_l",
+            "centerPoint": [0.5,1.15625,0.09375],
+            "axis": [0.0,0.0,-90.0],
+            "duration": 20,
+            "forwardsStartSound": "iv_tpp:dooropen",
+            "reverseEndSound": "iv_tpp:doorclose"
+          }
+        ]
+      }
+    ],
+    "customVariables": ["table_l","table_r"],
+    "sounds": [
+      {
+        "name": "iv_tpp:horn_1",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "horn",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_piston_1_1_cam_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "color": "#D9D9D9",
+        "transparency": 0.25,
+        "toTransparency": 0.25,
+        "scale": 1.0,
+        "pos": [0.0,1.40625,0.21875],
+        "initialVelocity": [0.0,1.0,0.0]
+      },
+      {
+        "type": "smoke",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "color": "#000000",
+        "scale": 2.5,
+        "pos": [0.0,1.40625,0.21875],
+        "initialVelocity": [0.0,1.0,0.0],
+        "quantity": 5
+      }
+    ]
+  },
+  "prefixFolders": "",
+  "packID": "iv_tpp",
+  "systemName": "bbq_main",
+  "classification": "vehicle",
+  "general": {
+    "description": "can be driven",
+    "materials": ["minecraft:iron_ingot:0:16","minecraft:iron_block:0:1","minecraft:glowstone_dust:0:16"]
+  }
+}

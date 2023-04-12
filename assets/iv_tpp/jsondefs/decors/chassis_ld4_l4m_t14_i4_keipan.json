@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_ld4_l4m_t14_i4_keipan",
+      "name": "model LD4-l4M-T14-I4 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-l4M-T14-I4 chassis",
+    "description": "Used in:\n- Trin Keipan",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:25"]
+    ]
+  }
+}

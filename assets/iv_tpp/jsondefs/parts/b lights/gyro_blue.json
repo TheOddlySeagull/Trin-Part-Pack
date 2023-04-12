@@ -1,0 +1,201 @@
+{
+  "generic": {
+    "type": "generic_gyrophare",
+    "width": 0.1875,
+    "height": 0.1875
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "gyrophare",
+      "name": "Blue Gyrophare",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "top",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0026FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.0,0.25,0.0],
+            "axis": [0.0,1.0,0.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      },
+      {
+        "objectName": "side_1",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0026FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "0_5_5_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.0,0.15625,0.09375],
+            "axis": [0.0,0.0,1.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          },
+          {
+            "pos": [0.078125,0.15625,0.078125],
+            "axis": [0.707099974155426,0.0,0.707099974155426],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      },
+      {
+        "objectName": "side_2",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0026FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "5_5_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.09375,0.15625,0.0],
+            "axis": [1.0,0.0,0.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          },
+          {
+            "pos": [0.078125,0.15625,-0.078125],
+            "axis": [0.707099974155426,0.0,-0.707099974155426],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      },
+      {
+        "objectName": "side_3",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0026FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "0_5_5_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [0.0,0.15625,-0.09375],
+            "axis": [0.0,0.0,-1.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          },
+          {
+            "pos": [-0.078125,0.15625,-0.078125],
+            "axis": [-0.707099974155426,0.0,-0.707099974155426],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      },
+      {
+        "objectName": "side_4",
+        "emissive": true,
+        "covered": true,
+        "isElectric": true,
+        "color": "0026FF",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "15_5_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "5_5_0_cycle",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [-0.09375,0.15625,0.0],
+            "axis": [-1.0,0.0,0.0],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          },
+          {
+            "pos": [-0.078125,0.15625,0.078125],
+            "axis": [-0.707099974155426,0.0,0.707099974155426],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      }
+    ],
+    "customVariables": ["EMERLTS"],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Red Gyrophare",
+    "health": 100,
+    "materialLists": [
+      ["minecraft:dye:6:1","minecraft:iron_ingot:0:1","minecraft:stained_glass:4:1"]
+    ],
+    "stackSize": 16
+  }
+}

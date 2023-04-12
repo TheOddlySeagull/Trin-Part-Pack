@@ -1,0 +1,257 @@
+{
+  "generic": {
+    "type": "ground_wheel",
+    "movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "ground_rotation",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [1.0,0.0,0.0]
+      }
+    ]
+  },
+  "ground": {
+    "isWheel": true,
+    "width": 0.34375,
+    "height": 0.6875,
+    "flatHeight": 0.5,
+    "motiveFriction": 2.0,
+    "lateralFriction": 3.0,
+    "frictionModifiers": {
+      "snow": -1.5,
+      "ice": -1.75,
+      "dirt": -1.0,
+      "dirt_wet": -1.5,
+      "sand": -1.125,
+      "sand_wet": -1.625,
+      "normal_wet": -1.0
+    }
+  },
+  "definitions": [
+    {
+      "subName": "_0_bluedemon_blue",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Blue Demon - TXS Race Tire With Blue Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_blue:0:1","mts:iv_tpp.rim_txs_race_2d4_0_bluedemon:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_bluedemon_red",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Blue Demon - TXS Race Tire With Red Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_red:0:1","mts:iv_tpp.rim_txs_race_2d4_0_bluedemon:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_bluedemon",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Blue Demon - TXS Race Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12:0:1","mts:iv_tpp.rim_txs_race_2d4_0_bluedemon:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_goldghost_blue",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Golden Ghost - TXS Race Tire With Blue Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_blue:0:1","mts:iv_tpp.rim_txs_race_2d4_0_goldghost:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_goldghost_red",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Golden Ghost - TXS Race Tire With Red Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_red:0:1","mts:iv_tpp.rim_txs_race_2d4_0_goldghost:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_goldghost",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Golden Ghost - TXS Race Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12:0:1","mts:iv_tpp.rim_txs_race_2d4_0_goldghost:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_flamingchrome_blue",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Flaming Chrome - TXS Race Tire With Blue Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_blue:0:1","mts:iv_tpp.rim_txs_race_2d4_0_flamingchrome:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_flamingchrome_red",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Flaming Chrome - TXS Race Tire With Red Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_red:0:1","mts:iv_tpp.rim_txs_race_2d4_0_flamingchrome:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_flamingchrome",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Flaming Chrome - TXS Race Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12:0:1","mts:iv_tpp.rim_txs_race_2d4_0_flamingchrome:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_fataltxs_blue",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Fatal TXS - TXS Race Tire With Blue Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_blue:0:1","mts:iv_tpp.rim_txs_race_2d4_0_fataltxs:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_fataltxs_red",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Fatal TXS - TXS Race Tire With Red Trim",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12_red:0:1","mts:iv_tpp.rim_txs_race_2d4_0_fataltxs:0:1"]
+      ]
+    },
+    {
+      "subName": "_0_fataltxs",
+      "modelName": "wheel_txs_race_4d12_0",
+      "name": "Trin Compact Wheel (12*4) - TXS Lusty Sparkle Rim - Fatal TXS - TXS Race Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_txs_race_4d12:0:1","mts:iv_tpp.rim_txs_race_2d4_0_fataltxs:0:1"]
+      ]
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "tire",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat"
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "mts:wheel_blowout",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "name": "mts:wheel_striking",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_contacted",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mts:wheel_skidding",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_onground",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat"
+          },
+          {
+            "animationType": "visibility",
+            "variable": "speed",
+            "clampMin": 0.0125,
+            "clampMax": 65535.0
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "slip",
+            "clampMin": -1024.0,
+            "clampMax": -0.5
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "slip",
+            "clampMin": 0.5,
+            "clampMax": 1024.0
+          },
+          {
+            "animationType": "visibility",
+            "variable": "ground_skidding",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "volumeAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "slip",
+            "axis": [0.0,0.0625,0.0],
+            "offset": -0.375,
+            "clampMax": 0.5,
+            "absolute": true
+          }
+        ],
+        "pitchAnimations": [
+          {
+            "animationType": "translation",
+            "variable": "slip",
+            "axis": [0.0,-0.0125,0.0],
+            "offset": 1.9875,
+            "clampMin": 1.5,
+            "clampMax": 1.75,
+            "absolute": true
+          }
+        ],
+        "looping": true
+      }
+    ],
+    "particles": [
+      {
+        "type": "smoke",
+        "quantity": 1,
+        "duration": 10,
+        "scale": 4.0,
+        "color": "FFFFFF",
+        "initialVelocity": [0.0,-0.15,0.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "ground_isflat",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 4,
+    "health": 100,
+    "materialLists": [
+      []
+    ],
+    "repairMaterialLists": [
+      ["mts:iv_tpp.tire_txs_race_4d12:0:1"]
+    ]
+  }
+}

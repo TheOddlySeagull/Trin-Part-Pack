@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 3.0,
+    "height": 1.5,
+    "depth": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_md4_l5m_t18_i4_rodeo",
+      "name": "model HD4-l5M-T18-I4 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model HD4-l5M-T18-I4 chassis",
+    "description": "Used in:\n- Trin Rodeo Wagon\n- Trin Rodeo Cabrio\n- Trin Rodeo Pickup\n- Trin Rodeo Van",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:24"]
+    ]
+  }
+}

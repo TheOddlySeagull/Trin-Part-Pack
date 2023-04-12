@@ -1,0 +1,22 @@
+{
+  "generic": {
+    "type": "interactable_crate"
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "trin_crate2",
+      "name": "Trin Cardboard Crate (Beware, looks a lot like bread.)",
+      "extraMaterials": []
+    }
+  ],
+  "general": {
+    "name": "Trin Cardboard Crate (Beware, looks a lot like bread.)",
+    "materials": ["minecraft:paper:0:25"],
+    "stackSize": 4
+  }
+}
