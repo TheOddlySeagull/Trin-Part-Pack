@@ -171,7 +171,7 @@
     "name": "Truck Bed - Flatbed With Walls, And Extra Height Wire Mesh",
     "health": 100,
     "materialLists": [
-      ["iv_tpp:metal_pile_4:0:15","minecraft:iron_ingot:0:30"]
+      ["mts:iv_tpp.metal_pile_4:0:15","minecraft:iron_ingot:0:30"]
     ]
   }
 }

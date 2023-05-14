@@ -138,7 +138,7 @@
     "name": "Truck Bed - Dumpster Flatbed",
     "health": 100,
     "materialLists": [
-      ["iv_tpp:metal_pile_4:0:3","minecraft:iron_ingot:0:40"]
+      ["mts:iv_tpp.metal_pile_4:0:3","minecraft:iron_ingot:0:40"]
     ]
   }
 }
