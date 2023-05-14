@@ -38,7 +38,7 @@
     "name": "Blue Small LED",
     "health": 100,
     "materialLists": [
-      ["minecraft:dye:5:1","minecraft:iron_nugget:0:1","minecraft:glowstone_dust:0:1"]
+      ["minecraft:dye:12:1","minecraft:iron_nugget:0:1","minecraft:glowstone_dust:0:1"]
     ],
     "stackSize": 64
   }
