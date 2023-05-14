@@ -51,6 +51,8 @@ Trin Part Pack 2.22.0 changelog:
 + Introduced dashboard parts*
 + Introduced 15 new paint buckets*
 
-
+/Fixed recipe for gyrophare colors (all varients)
+/Fixed recipe for truck beds (several variants)
+/Fixed recipe for rims (several variants)
 
 * In prevision of Trin Civil Pack V4
