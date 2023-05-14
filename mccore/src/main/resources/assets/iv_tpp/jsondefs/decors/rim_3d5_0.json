@@ -11,7 +11,7 @@
       "modelName": "rim_3d5_0",
       "name": "Trin Rim (5*3) - Ministeel Rim - Steel",
       "extraMaterialLists": [
-        ["minecraft:dye:0:4","minecraft:dye:4:4"]
+        ["minecraft:dye:8:2"]
       ]
     }
   ],

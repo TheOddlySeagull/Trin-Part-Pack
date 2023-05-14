@@ -11,7 +11,7 @@
       "modelName": "rim_2d2_0",
       "name": "Trin Rim (2*2) - Microsteel Rim - Steel",
       "extraMaterialLists": [
-        ["minecraft:dye:0:4","minecraft:dye:4:4"]
+        ["minecraft:dye:8:1"]
       ]
     }
   ],
