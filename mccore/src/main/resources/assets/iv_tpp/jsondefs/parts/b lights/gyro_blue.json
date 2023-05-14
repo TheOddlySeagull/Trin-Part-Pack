@@ -191,10 +191,9 @@
     "modelType": "obj"
   },
   "general": {
-    "name": "Red Gyrophare",
     "health": 100,
     "materialLists": [
-      ["minecraft:dye:6:1","minecraft:iron_ingot:0:1","minecraft:stained_glass:4:1"]
+      ["minecraft:dye:4:1","minecraft:iron_ingot:0:1","minecraft:glass:0:1"]
     ],
     "stackSize": 16
   }
