@@ -15,11 +15,43 @@
       ]
     },
     {
+      "subName": "_glacierwhite",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Glacier White",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:8","minecraft:dye:12:2"]
+      ]
+    },
+    {
       "subName": "_white",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - White",
       "extraMaterialLists": [
         ["minecraft:dye:15:8","minecraft:dye:8:2"]
+      ]
+    },
+    {
+      "subName": "_ivory",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Ivory",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:7","minecraft:dye:8:1","minecraft:dye:14:1"]
+      ]
+    },
+    {
+      "subName": "_sand",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Sand",
+      "extraMaterialLists": [
+        ["minecraft:dye:14:4","minecraft:dye:11:5","minecraft:dye:15:1"]
+      ]
+    },
+    {
+      "subName": "_sandstone",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Sandstone",
+      "extraMaterialLists": [
+        ["minecraft:dye:14:4","minecraft:dye:8:6"]
       ]
     },
     {
@@ -63,6 +95,14 @@
       ]
     },
     {
+      "subName": "_deepblack",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Deep Black",
+      "extraMaterialLists": [
+        ["minecraft:dye:0:9","minecraft:dye:8:1"]
+      ]
+    },
+    {
       "subName": "_pureblack",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Pure Black",
@@ -71,43 +111,123 @@
       ]
     },
     {
-      "subName": "_chocolate",
+      "subName": "_skyblue",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Chocolate",
+      "name": "Paint Bucket - Sky Blue",
       "extraMaterialLists": [
-        ["minecraft:dye:3:10"]
+        ["minecraft:dye:12:10"]
       ]
     },
     {
-      "subName": "_caramel",
+      "subName": "_teal",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Caramel",
+      "name": "Paint Bucket - Teal",
       "extraMaterialLists": [
-        ["minecraft:dye:3:8","minecraft:dye:14:2"]
+        ["minecraft:dye:6:8","minecraft:dye:15:2"]
       ]
     },
     {
-      "subName": "_milkcoffee",
+      "subName": "_oceanblue",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Milk Coffee",
+      "name": "Paint Bucket - Ocean Blue",
       "extraMaterialLists": [
-        ["minecraft:dye:3:4","minecraft:dye:15:3","minecraft:dye:8:3"]
+        ["minecraft:dye:6:9","minecraft:dye:7:1"]
       ]
     },
     {
-      "subName": "_sand",
+      "subName": "_electricblue",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Sand",
+      "name": "Paint Bucket - Electric Blue",
       "extraMaterialLists": [
-        ["minecraft:dye:14:4","minecraft:dye:11:5","minecraft:dye:15:1"]
+        ["minecraft:dye:12:7","minecraft:dye:6:3"]
       ]
     },
     {
-      "subName": "_sandstone",
+      "subName": "_sapphire",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Sandstone",
+      "name": "Paint Bucket - Sapphire",
       "extraMaterialLists": [
-        ["minecraft:dye:14:4","minecraft:dye:8:6"]
+        ["minecraft:dye:4:6","minecraft:dye:8:3","minecraft:dye:5:1"]
+      ]
+    },
+    {
+      "subName": "_lapenderblue",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Lapender Blue",
+      "extraMaterialLists": [
+        ["minecraft:dye:4:7","minecraft:dye:8:3"]
+      ]
+    },
+    {
+      "subName": "_softgreen",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Soft Green",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:8","minecraft:dye:15:2"]
+      ]
+    },
+    {
+      "subName": "_emerald",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Emerald",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:8","minecraft:dye:6:1","minecraft:dye:7:1"]
+      ]
+    },
+    {
+      "subName": "_oakgreen",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Oak Green",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:10"]
+      ]
+    },
+    {
+      "subName": "_spruce",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Spruce",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:8","minecraft:dye:0:2"]
+      ]
+    },
+    {
+      "subName": "_coldspruce",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Cold Spruce",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:7","minecraft:dye:4:2","minecraft:dye:0:1"]
+      ]
+    },
+    {
+      "subName": "_millitary",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Millitary",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:6","minecraft:dye:8:4"]
+      ]
+    },
+    {
+      "subName": "_steelblue",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Steel Blue",
+      "extraMaterialLists": [
+        ["minecraft:dye:4:4","minecraft:dye:7:4","minecraft:dye:2:2"]
+      ]
+    },
+    {
+      "subName": "_lemonyellow",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Lemon Yellow",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:7","minecraft:dye:15:2","minecraft:dye:7:1"]
+      ]
+    },
+    {
+      "subName": "_buttercup",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Buttercup",
+      "extraMaterialLists": [
+        ["minecraft:dye:11:7","minecraft:dye:14:2","minecraft:dye:7:1"]
       ]
     },
     {
@@ -135,11 +255,27 @@
       ]
     },
     {
-      "subName": "_vibrantred",
+      "subName": "_orangered",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Vibrant Red",
+      "name": "Paint Bucket - Orange Red",
       "extraMaterialLists": [
-        ["minecraft:dye:1:10"]
+        ["minecraft:dye:1:4","minecraft:dye:14:3","minecraft:dye:7:1"]
+      ]
+    },
+    {
+      "subName": "_tomato",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Tomato",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:4","minecraft:dye:11:1","minecraft:dye:7:3"]
+      ]
+    },
+    {
+      "subName": "_ruby",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Ruby",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:6","minecraft:dye:8:2"]
       ]
     },
     {
@@ -167,11 +303,51 @@
       ]
     },
     {
+      "subName": "_milkcoffee",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Milk Coffee",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:4","minecraft:dye:15:3","minecraft:dye:8:3"]
+      ]
+    },
+    {
+      "subName": "_brown",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Brown",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:9","minecraft:dye:8:1"]
+      ]
+    },
+    {
+      "subName": "_chocolate",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Chocolate",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:10"]
+      ]
+    },
+    {
+      "subName": "_caramel",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Caramel",
+      "extraMaterialLists": [
+        ["minecraft:dye:3:8","minecraft:dye:14:2"]
+      ]
+    },
+    {
       "subName": "_amber",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Amber",
       "extraMaterialLists": [
         ["minecraft:dye:3:8","minecraft:dye:14:2"]
+      ]
+    },
+    {
+      "subName": "_midnightpurple",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Midnight Purple",
+      "extraMaterialLists": [
+        ["minecraft:dye:5:5","minecraft:dye:4:3","minecraft:dye:0:2"]
       ]
     },
     {
@@ -199,123 +375,59 @@
       ]
     },
     {
-      "subName": "_midnightpurple",
+      "subName": "_citruslime",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Midnight Purple",
+      "name": "Paint Bucket - Vibrant Citrus Lime",
       "extraMaterialLists": [
-        ["minecraft:dye:5:5","minecraft:dye:4:3","minecraft:dye:0:2"]
-      ]
-    },
-    {
-      "subName": "_electricblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Electric Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:12:7","minecraft:dye:6:3"]
-      ]
-    },
-    {
-      "subName": "_lapenderblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Lapender Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:4:7","minecraft:dye:8:3"]
-      ]
-    },
-    {
-      "subName": "_electricblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Electric Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:12:7","minecraft:dye:6:3"]
-      ]
-    },
-    {
-      "subName": "_oceanblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Ocean Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:6:9","minecraft:dye:7:1"]
-      ]
-    },
-    {
-      "subName": "_skyblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Sky Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:12:10"]
-      ]
-    },
-    {
-      "subName": "_steelblue",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Steel Blue",
-      "extraMaterialLists": [
-        ["minecraft:dye:4:4","minecraft:dye:7:4","minecraft:dye:2:2"]
-      ]
-    },
-    {
-      "subName": "_teal",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Teal",
-      "extraMaterialLists": [
-        ["minecraft:dye:6:8","minecraft:dye:15:2"]
-      ]
-    },
-    {
-      "subName": "_turquoise",
-      "modelName": "paint_bucket",
-      "name": "Paint Bucket - Turquoise",
-      "extraMaterialLists": [
-        ["minecraft:dye:2:5","minecraft:dye:4:3","minecraft:dye:10:2"]
+        ["minecraft:dye:2:5","minecraft:dye:11:4","minecraft:dye:8:1","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
       "subName": "_slimelime",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Slime Lime",
+      "name": "Paint Bucket - Vibrant Slime Lime",
       "extraMaterialLists": [
-        ["minecraft:dye:10:10"]
+        ["minecraft:dye:10:10","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
-      "subName": "_citruslime",
+      "subName": "_turquoise",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Citrus Lime",
+      "name": "Paint Bucket - Vibrant Turquoise",
       "extraMaterialLists": [
-        ["minecraft:dye:2:5","minecraft:dye:11:4","minecraft:dye:8:1"]
+        ["minecraft:dye:2:5","minecraft:dye:4:3","minecraft:dye:10:2","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
-      "subName": "_softgreen",
+      "subName": "_fuchsia",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Soft Green",
+      "name": "Paint Bucket - Vibrant Fuchsia",
       "extraMaterialLists": [
-        ["minecraft:dye:2:8","minecraft:dye:15:2"]
+        ["minecraft:dye:5:9","minecraft:dye:11:1","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
-      "subName": "_oakgreen",
+      "subName": "_vibrantred",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Oak Green",
+      "name": "Paint Bucket - Vibrant Red",
       "extraMaterialLists": [
-        ["minecraft:dye:2:10"]
+        ["minecraft:dye:1:10","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
-      "subName": "_spruce",
+      "subName": "_pinkcandy",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Spruce",
+      "name": "Paint Bucket - Vibrant Pink Candy",
       "extraMaterialLists": [
-        ["minecraft:dye:2:8","minecraft:dye:0:2"]
+        ["minecraft:dye:13:8","minecraft:dye:9:1","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
-      "subName": "_coldspruce",
+      "subName": "_vibrantpurple",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Cold Spruce",
+      "name": "Paint Bucket - Vibrant Purple",
       "extraMaterialLists": [
-        ["minecraft:dye:2:7","minecraft:dye:4:2","minecraft:dye:0:1"]
+        ["minecraft:dye:5:10","minecraft:glowstone_dust:0:1"]
       ]
     }
   ],
