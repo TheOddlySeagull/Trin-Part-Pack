@@ -199,9 +199,9 @@
       ]
     },
     {
-      "subName": "_millitary",
+      "subName": "_militarygreen",
       "modelName": "paint_bucket",
-      "name": "Paint Bucket - Millitary",
+      "name": "Paint Bucket - Military Green",
       "extraMaterialLists": [
         ["minecraft:dye:2:6","minecraft:dye:8:4"]
       ]
