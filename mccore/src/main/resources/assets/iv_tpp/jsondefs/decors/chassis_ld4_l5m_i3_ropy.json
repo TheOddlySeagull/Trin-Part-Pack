@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 4.0,
+    "height": 1,
+    "depth": 2.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_ld4_l5m_i3_ropy",
+      "name": "model LD4-l5M-I3 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model LD4-l5M-I3 chassis",
+    "description": "Used in:\n- Trin Ropy",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:40"]
+    ]
+  }
+}
