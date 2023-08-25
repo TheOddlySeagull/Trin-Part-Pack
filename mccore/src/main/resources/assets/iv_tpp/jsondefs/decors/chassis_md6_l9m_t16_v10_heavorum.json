@@ -1,0 +1,29 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 2.0,
+    "height": 1,
+    "depth": 9.0
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_md6_l9m_t16_v10_heavorum",
+      "name": "model MD6-l9M-V8 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model MD6-l9M-V8 chassis",
+    "description": "Used in:\n- Trin Heavorum",
+    "materialLists": [
+      ["minecraft:iron_ingot:0:60"]
+    ]
+  }
+}
