@@ -56,3 +56,7 @@ Trin Part Pack 2.22.0 changelog:
 /Fixed recipe for rims (several variants)
 
 * In prevision of Trin Civil Pack V4
+
+###########################################################################################
+
+chassis_md6_l9m_t16_v10_heavorum
