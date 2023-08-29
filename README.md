@@ -5,10 +5,13 @@
 ### Main Additions:
 
 - Introduced model MD6-l9M-V10 chassis
+- Introduced chromic rim type to standard wheels
+- Introduced chromic rim type to large wheels
+- Introduced chromic rim decor
 
 ### Fixes:
 
-- Fixed item textures of large wheels
+- Fixed item textures of modesteel rim type large wheels
 
 ---
 
