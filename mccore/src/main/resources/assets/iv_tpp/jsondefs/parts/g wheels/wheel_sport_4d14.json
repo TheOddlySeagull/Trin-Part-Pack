@@ -16,24 +16,32 @@
     "height": 0.875,
     "flatHeight": 0.5,
     "motiveFriction": 1.0,
-    "lateralFriction": 0.875,
+    "lateralFriction": 1.0,
     "frictionModifiers": {
-      "snow": -0.25,
-      "ice": -0.5,
-      "dirt_wet": -0.25,
-      "sand": -0.125,
-      "sand_wet": -0.375,
-      "normal": -0.125,
+      "snow": -0.375,
+      "ice": -0.625,
+      "dirt": -0.25,
+      "dirt_wet": -0.375,
+      "sand": -0.375,
+      "sand_wet": -0.5,
       "normal_wet": -0.25
     }
   },
   "definitions": [
     {
-      "subName": "_steel",
+      "subName": "_0_steel",
       "modelName": "wheel_4d14_0",
-      "name": "Trin Standard Wheel (14*4) - Modesteel Rim - Steel - Off-road Tire",
+      "name": "Trin Standard Wheel (14*4) - Modesteel Rim - Steel - Racing Tire",
       "extraMaterialLists": [
-        ["mts:iv_tpp.tire_4d14_offroad:0:1","mts:iv_tpp.rim_4d8_0_steel:0:1"]
+        ["mts:iv_tpp.tire_4d14_sport:0:1","mts:iv_tpp.rim_4d8_0_steel:0:1"]
+      ]
+    },
+    {
+      "subName": "_1_chromic",
+      "modelName": "wheel_4d14_1",
+      "name": "Trin Standard Wheel (14*4) - Chromic Rim  - Racing Tire",
+      "extraMaterialLists": [
+        ["mts:iv_tpp.tire_4d14_sport:0:1","mts:iv_tpp.rim_4d8_1_chromic:0:1"]
       ]
     }
   ],
@@ -162,7 +170,7 @@
       []
     ],
     "repairMaterialLists": [
-      ["mts:iv_tpp.tire_4d14_offroad:0:1"]
+      ["mts:iv_tpp.tire_4d14_sport:0:1"]
     ],
     "stackSize": 4
   }
