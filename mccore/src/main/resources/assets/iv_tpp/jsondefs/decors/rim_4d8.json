@@ -7,11 +7,19 @@
   },
   "definitions": [
     {
-      "subName": "_steel",
+      "subName": "_0_steel",
       "modelName": "rim_4d8_0",
       "name": "Trin Rim (8*4) - Modesteel Rim - Steel",
       "extraMaterialLists": [
         ["minecraft:dye:8:3"]
+      ]
+    },
+    {
+      "subName": "_1_chromic",
+      "modelName": "rim_4d8_1",
+      "name": "Trin Rim (8*4) - Chromic Rim",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:1", "minecraft:dye:8:2"]
       ]
     }
   ],
