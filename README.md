@@ -1,5 +1,11 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.23.1 changelog:
+
+### Fixes:
+- Fixed utf-8 degree symbol in engine temp gauge names
+- (1.16.5) Fixed all recipes related to dyes
+
 ## Trin Part Pack 2.23.0 changelog:
 
 ### Main Additions:
