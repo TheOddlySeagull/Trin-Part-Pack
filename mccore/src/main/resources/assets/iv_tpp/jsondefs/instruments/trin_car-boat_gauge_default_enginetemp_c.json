@@ -44,7 +44,7 @@
   "systemName": "trin_car-boat_gauge_default_enginetemp_c",
   "classification": "instrument",
   "general": {
-    "name": "Trin Default Gauge - engine temperature (°C)",
+    "name": "Trin Default Gauge - engine temperature (Â°C)",
     "description": "Indicates engine temperature.",
     "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:0:1"]
   }

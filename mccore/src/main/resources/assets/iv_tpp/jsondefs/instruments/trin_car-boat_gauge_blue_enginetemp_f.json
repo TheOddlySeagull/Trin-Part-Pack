@@ -44,7 +44,7 @@
   "systemName": "trin_car-boat_gauge_blue_enginetemp_f",
   "classification": "instrument",
   "general": {
-    "name": "Trin Blue Gauge - engine temperature (°F)",
+    "name": "Trin Blue Gauge - engine temperature (Â°F)",
     "description": "Indicates engine temperature.",
     "materials": ["minecraft:iron_ingot:0:1","minecraft:redstone:0:1","minecraft:dye:12:1","minecraft:dye:0:1"]
   }
