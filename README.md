@@ -90,6 +90,8 @@
 - Removed TXS Average Wheel.
 - Removed all Trin Pilocrap body panels (moved to TCP V3)
 
+---
+
 ## License
 
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
