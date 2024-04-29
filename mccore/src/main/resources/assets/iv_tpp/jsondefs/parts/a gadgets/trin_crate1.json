@@ -10,13 +10,19 @@
     {
       "subName": "",
       "modelName": "trin_crate1",
-      "name": "Trin Crate",
-      "extraMaterials": ["minecraft:dye:8:2"]
+      "name": "Metal Trin Crate",
+      "extraMaterials": ["minecraft:iron_ingot:0:4","minecraft:dye:8:2"]
+    },
+    {
+      "subName": "wooden",
+      "modelName": "trin_crate2",
+      "name": "Wooden Trin Crate",
+      "extraMaterials": ["minecraft:planks:0:4"]
     }
   ],
   "general": {
     "name": "Trin Crate",
-    "materials": ["minecraft:iron_ingot:0:4"],
+    "materials": [],
     "stackSize": 4
   }
 }

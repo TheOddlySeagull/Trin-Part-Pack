@@ -24,6 +24,12 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
             "variable": "16_4_0_cycle",
             "clampMin": 1.0,
             "clampMax": 1.0
@@ -51,6 +57,12 @@
         "isElectric": true,
         "color": "FF0000",
         "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
           {
             "animationType": "visibility",
             "variable": "16_4_0_cycle",
@@ -82,6 +94,12 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
             "variable": "12_4_4_cycle",
             "clampMin": 1.0,
             "clampMax": 1.0
@@ -109,6 +127,12 @@
         "isElectric": true,
         "color": "0000FF",
         "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
           {
             "animationType": "visibility",
             "variable": "12_4_4_cycle",
@@ -140,6 +164,12 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
             "variable": "8_4_8_cycle",
             "clampMin": 1.0,
             "clampMax": 1.0
@@ -167,6 +197,12 @@
         "isElectric": true,
         "color": "FF0000",
         "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
           {
             "animationType": "visibility",
             "variable": "8_4_8_cycle",
@@ -198,6 +234,12 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
             "variable": "4_4_12_cycle",
             "clampMin": 1.0,
             "clampMax": 1.0
@@ -225,6 +267,12 @@
         "isElectric": true,
         "color": "0000FF",
         "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
           {
             "animationType": "visibility",
             "variable": "4_4_12_cycle",
@@ -256,6 +304,12 @@
         "brightnessAnimations": [
           {
             "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "visibility",
             "variable": "0_4_16_cycle",
             "clampMin": 1.0,
             "clampMax": 1.0
@@ -283,6 +337,12 @@
         "isElectric": true,
         "color": "FF0000",
         "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "EMERLTS",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
           {
             "animationType": "visibility",
             "variable": "0_4_16_cycle",
