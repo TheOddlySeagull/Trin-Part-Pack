@@ -1,8 +1,46 @@
 {
   "generic": {
-    "type": "seat"
+    "type": "seat",
+    "activeAnimations": [
+      {
+        "animationType": "visibility",
+        "variable": "part_present_1"
+      }
+    ]
   },
   "seat": {},
+  "parts": [
+    {
+      "pos": [0.0,-0.03125,0.03125],
+      "rot": [0.0,90.0,-6.375],
+      "maxValue": 3.0,
+      "types": [
+        "interactable_luggage"
+      ],
+      "interactableVariables": [
+        [
+          "!seat_occupied"
+        ],
+        [
+          "!slot_luggage_blocked"
+        ]
+      ],
+      "animations": [
+          {
+            "animationType": "translation",
+            "variable": "!part_present_1",
+            "axis": [0.0,0.1875,0.0]
+          }
+      ]
+    },
+    {
+      "pos": [0.0,-0.0125,0.0],
+      "maxValue": 1.0,
+      "types": [
+        "generic_npc"
+      ]
+    }
+  ],
   "definitions": [
     {
       "subName": "_gray",
