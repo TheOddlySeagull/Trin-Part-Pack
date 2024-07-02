@@ -1,0 +1,100 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 0.5,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_cherry",
+      "name": "Wood trimming panels - Cherry",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:1:2"
+        ]
+      ]
+    },
+    {
+      "subName": "_dark_walnut",
+      "name": "Wood trimming panels - Dark Walnut",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:2"
+        ]
+      ]
+    },
+    {
+      "subName": "_early_american",
+      "name": "Wood trimming panels - Early American",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:1",
+          "minecraft:dye:11:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_ebony",
+      "name": "Wood trimming panels - Ebony",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:1",
+          "minecraft:dye:0:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_golden_pecan",
+      "name": "Wood trimming panels - Golden Pecan",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:1",
+          "minecraft:dye:7:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_osb",
+      "name": "Wood trimming panels - OSB",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:7:2"
+        ]
+      ]
+    },
+    {
+      "subName": "_provincial",
+      "name": "Wood trimming panels - Provincial",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:1",
+          "minecraft:dye:1:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_sedona_red",
+      "name": "Wood trimming panels - Sedona Red",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:1:2"
+        ]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "modelName": "metal_pile",
+    "stackSize": 32,
+    "description": "A pile of Wooden Panels, used for crafting.",
+    "materialLists": [
+      [
+        "minecraft:planks:0:1"
+      ]
+    ]
+  }
+}

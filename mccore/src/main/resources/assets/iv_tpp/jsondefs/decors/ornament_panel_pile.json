@@ -1,0 +1,64 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.0,
+    "height": 0.5,
+    "depth": 1.0
+  },
+  "definitions": [
+    {
+      "subName": "_black",
+      "name": "Ornamental material panels - Black stripes",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:0:1",
+          "minecraft:dye:8:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_white",
+      "name": "Ornamental material panels - White stripes",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:15:1",
+          "minecraft:dye:7:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_gold",
+      "name": "Ornamental material panels - Golden stripes",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:15:1",
+          "minecraft:dye:11:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_blue",
+      "name": "Ornamental material panels - Blue stripes",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:6:1",
+          "minecraft:dye:4:1"
+        ]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "modelName": "metal_pile",
+    "stackSize": 32,
+    "description": "A pile of Wooden Panels, used for crafting.",
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:1"
+      ]
+    ]
+  }
+}
