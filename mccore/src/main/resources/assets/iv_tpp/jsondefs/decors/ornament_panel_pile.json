@@ -54,7 +54,7 @@
   "general": {
     "modelName": "metal_pile",
     "stackSize": 32,
-    "description": "A pile of Wooden Panels, used for crafting.",
+    "description": "A pile of Textured Panels, used for crafting.",
     "materialLists": [
       [
         "minecraft:iron_ingot:0:1"
