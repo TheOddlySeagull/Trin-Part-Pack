@@ -1,5 +1,19 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.24.0 changelog:
+
+### Additions:
+- Added new varients of metal panels for crafting
+- Added wooden and decor panels for crafting
+- Added a new skin to Trin Wooden Crate
+
+### Fixes:
+- Fixed flashing LEDs to activate with EMERLTS
+- Fixed some truck bed conventionnal crate placements
+- Fixed crate offset for convention
+
+---
+
 ## Trin Part Pack 2.23.1 changelog:
 
 ### Fixes:
