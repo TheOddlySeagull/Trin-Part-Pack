@@ -1,0 +1,92 @@
+{
+  "definitions": [
+    {
+      "subName": "_white",
+      "name": "Truck Bed - Tanker (White)",
+      "extraMaterialLists": [
+        ["minecraft:dye:15:8"]
+      ]
+    },
+    {
+      "subName": "_gray",
+      "name": "Truck Bed - Tanker (Gray)",
+      "extraMaterialLists": [
+        ["minecraft:dye:8:8"]
+      ]
+    },
+    {
+      "subName": "_copper",
+      "name": "Truck Bed - Tanker (Copper)",
+      "extraMaterialLists": [
+        ["minecraft:dye:1:8"]
+      ]
+    },
+    {
+      "subName": "_chrome",
+      "name": "Truck Bed - Tanker (Chrome)",
+      "extraMaterialLists": [
+        ["minecraft:dye:7:8"]
+      ]
+    },
+    {
+      "subName": "_green",
+      "name": "Truck Bed - Tanker (Green)",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:8"]
+      ]
+    }
+  ],
+  "general": {
+    "name": "Truck Bed - Tanker",
+    "description": "All the fluid you need, in one place.",
+    "stackSize": 1,
+    "health": 100,
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:20"
+      ]
+    ]
+  },
+  "generic": {
+    "type": "generic_truckbed",
+    "width": 3.0,
+    "height": 0.1
+  },
+  "subParts": [
+		{
+			"pos": [0, 1.875, -3.25],
+			"types": ["interactable_invisitank"],
+			"defaultPart": "iv_tpp:trin_accessory_tank_short",
+			"isPermanent": true,
+			"minValue": 30,
+			"maxValue": 30
+		},
+    {
+      "pos": [-0.625, 0.4375, -5.9875],
+			"types": ["generic_carsticker"],
+      "rot": [0, 180, 0],
+			"minValue": 0,
+			"maxValue": 1
+    }
+  ],
+  "collision": [
+    {
+      "pos": [0, 1.3125, -1],
+      "width": 2,
+      "height": 2
+    },
+    {
+      "pos": [0, 1.3125, -3],
+      "width": 2,
+      "height": 2
+    },
+    {
+      "pos": [0, 1.3125, -5],
+      "width": 2,
+      "height": 2
+    }
+  ],
+  "rendering": {
+    "modelType": "obj"
+  }
+}
