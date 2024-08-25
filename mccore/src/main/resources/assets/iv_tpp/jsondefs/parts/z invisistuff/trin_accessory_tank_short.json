@@ -1,0 +1,31 @@
+{
+    "definitions": [
+        {
+            "subName": "",
+            "name": "Trin Short Invisitank",
+            "extraMaterialLists": [
+                []
+            ]
+        }
+    ],
+    "general": {
+        "name": "Trin Short Invisitank",
+        "description": "Used as default part to make tanker truck beds functionnal",
+        "stackSize": 4,
+        "materialLists": [
+            []
+        ]
+    },
+    "generic": {
+        "type": "interactable_invisitank",
+        "width": 1,
+        "height": 1
+    },
+    "interactable": {
+        "interactionType": "barrel",
+        "inventoryUnits": 30
+    },
+    "rendering": {
+        "modelType": "none"
+    }
+}
