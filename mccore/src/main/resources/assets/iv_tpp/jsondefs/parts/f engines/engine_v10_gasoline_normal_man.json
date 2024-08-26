@@ -1,6 +1,9 @@
 {
   "generic": {
-    "type": "engine_car"
+    "type": "engine_car",
+    "width": 0.75,
+    "height": 0.75,
+    "canBePlacedOnGround": true
   },
   "engine": {
     "type": "normal",
