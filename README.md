@@ -7,6 +7,15 @@
 - Introduced Trin Container (single)
 - Introduced Trin Invisitank, to make tanker truck bed compatible with all other truck beds
 
+### Additions:
+- Made all crate types placeable in the world
+- Made all engine types placeable in the world
+- Made the furnace furniture part an actual furnace, placeable in the world
+
+### Fixes:
+- Fixed "EMERLTS" not being custom variables
+- Fixed furniture offset for furnace
+
 ---
 
 ## Trin Part Pack 2.24.0 changelog:
