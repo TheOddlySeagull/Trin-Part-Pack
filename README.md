@@ -4,7 +4,7 @@
 
 ### Main Additions:
 - Introduced Trin Tanker Truck Bed (single), in 5 skins
-- Introduced Trin Container (single)
+- Introduced Trin Container (single), in 8 skins
 - Introduced Trin Invisitank, to make tanker truck bed compatible with all other truck beds
 
 ### Additions:
@@ -15,6 +15,7 @@
 ### Fixes:
 - Fixed "EMERLTS" not being custom variables
 - Fixed furniture offset for furnace
+- Fixed flat bed carte offsets
 
 ---
 
