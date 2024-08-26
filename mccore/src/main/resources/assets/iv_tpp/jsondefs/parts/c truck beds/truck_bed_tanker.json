@@ -50,7 +50,8 @@
   "generic": {
     "type": "generic_truckbed",
     "width": 3.0,
-    "height": 0.1
+    "height": 3.0,
+    "canBePlacedOnGround": true
   },
   "subParts": [
 		{
