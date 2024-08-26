@@ -14,8 +14,8 @@
       "extraMaterials": ["minecraft:iron_ingot:0:4","minecraft:dye:8:2"]
     },
     {
-      "subName": "wooden",
-      "modelName": "trin_crate2",
+      "subName": "_wooden",
+      "modelName": "trin_crate1",
       "name": "Wooden Trin Crate",
       "extraMaterials": ["minecraft:planks:0:4"]
     }
