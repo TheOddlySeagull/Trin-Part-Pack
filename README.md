@@ -1,8 +1,17 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.25.0 changelog:
+
+### Main Additions:
+- Introduced Trin Tanker Truck Bed (single), in 5 skins
+- Introduced Trin Container (single)
+- Introduced Trin Invisitank, to make tanker truck bed compatible with all other truck beds
+
+---
+
 ## Trin Part Pack 2.24.0 changelog:
 
-### Additions:
+### Main Additions:
 - Added new varients of metal panels for crafting
 - Added wooden and decor panels for crafting
 - Added a new skin to Trin Wooden Crate
