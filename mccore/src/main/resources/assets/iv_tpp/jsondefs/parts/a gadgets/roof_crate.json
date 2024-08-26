@@ -1,6 +1,9 @@
 {
   "generic": {
-    "type": "interactable_crate_roof"
+    "type": "interactable_crate_roof",
+    "canBePlacedOnGround": true,
+    "width": 0.75,
+    "height": 0.75
   },
   "interactable": {
     "interactionType": "crate",

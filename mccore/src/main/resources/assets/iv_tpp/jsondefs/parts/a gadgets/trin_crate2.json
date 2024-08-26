@@ -1,6 +1,9 @@
 {
   "generic": {
-    "type": "interactable_crate"
+    "type": "interactable_crate",
+    "canBePlacedOnGround": true,
+    "width": 0.75,
+    "height": 0.75
   },
   "interactable": {
     "interactionType": "crate",
