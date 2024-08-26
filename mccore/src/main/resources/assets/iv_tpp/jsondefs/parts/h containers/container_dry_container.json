@@ -1,0 +1,364 @@
+{
+    "interactable": {
+        "interactionType": "crate",
+        "feedsVehicles": false,
+        "inventoryUnits": 48
+    },
+    "definitions": [
+        {
+            "subName": "_chrome",
+            "name": "Trin Shipping Dry Container (Chrome)",
+            "extraMaterials": [
+                "minecraft:dye:8:8"
+            ]
+        },
+        {
+            "subName": "_copper",
+            "name": "Trin Shipping Dry Container (Copper)",
+            "extraMaterials": [
+                "minecraft:dye:14:8"
+            ]
+        },
+        {
+            "subName": "_gray",
+            "name": "Trin Shipping Dry Container (Gray)",
+            "extraMaterials": [
+                "minecraft:dye:7:8"
+            ]
+        },
+        {
+            "subName": "_green",
+            "name": "Trin Shipping Dry Container (Green)",
+            "extraMaterials": [
+                "minecraft:dye:2:8"
+            ]
+        },
+        {
+            "subName": "_military_green",
+            "name": "Trin Shipping Dry Container (Military Green)",
+            "extraMaterials": [
+                "minecraft:dye:2:4",
+                "minecraft:dye:8:4"
+            ]
+        },
+        {
+            "subName": "_red",
+            "name": "Trin Shipping Dry Container (Red)",
+            "extraMaterials": [
+                "minecraft:dye:1:8"
+            ]
+        },
+        {
+            "subName": "_red_rust",
+            "name": "Trin Shipping Dry Container (Rusty Red)",
+            "extraMaterials": [
+                "minecraft:dye:1:8",
+                "minecraft:dirt:0:1"
+            ]
+        },
+        {
+            "subName": "_white",
+            "name": "Trin Shipping Dry Container (White)",
+            "extraMaterials": [
+                "minecraft:dye:15:8"
+            ]
+        }
+    ],
+    "general": {
+        "type": "interactable_container_single",
+        "modelName": "container_dry_container",
+        "name": "Trin Shipping Dry Container",
+        "stackSize": 1,
+        "description": "A standard shipping container for all your shipping needs.",
+        "materials": [
+            "minecraft:iron_block:0:8"
+        ]
+    },
+    "generic": {
+        "width": 3,
+        "height": 3,
+        "canBePlacedOnGround": true
+    },
+    "collisionGroups": [
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        1,
+                        1.5,
+                        2.875
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        0,
+                        1.5,
+                        2.875
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1,
+                        1.5,
+                        2.875
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        1.375,
+                        1.5,
+                        2
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        1.375,
+                        1.5,
+                        1
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        1.375,
+                        1.5,
+                        0
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        1.375,
+                        1.5,
+                        -1
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        1.375,
+                        1.5,
+                        -2
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1.375,
+                        1.5,
+                        2
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1.375,
+                        1.5,
+                        1
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1.375,
+                        1.5,
+                        0
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1.375,
+                        1.5,
+                        -1
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                },
+                {
+                    "pos": [
+                        -1.375,
+                        1.5,
+                        -2
+                    ],
+                    "width": 0.5,
+                    "height": 3
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [0, 0.0625, -1.5],
+                    "width": 3,
+                    "height": 0.25
+                },
+                {
+                    "pos": [0, 0.0625, 1.5],
+                    "width": 3,
+                    "height": 0.25
+                }
+            ]
+        },
+        {
+            "collisions": [
+                {
+                    "pos": [
+                        0,
+                        2.875,
+                        1.5
+                    ],
+                    "width": 3,
+                    "height": 0.25
+                },
+                {
+                    "pos": [
+                        0,
+                        2.875,
+                        -1.5
+                    ],
+                    "width": 3,
+                    "height": 0.25
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        -0.375,
+                        1.3125,
+                        -2.875
+                    ],
+                    "width": 0.5,
+                    "height": 2,
+                    "variableName": "door_R",
+                    "variableType": "toggle",
+                    "variableValue": 0.0
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "door_R",
+                    "centerPoint": [
+                        -1.375,
+                        2.8125,
+                        -3
+                    ],
+                    "duration": 45,
+                    "axis": [
+                        0,
+                        150,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "isInterior": true,
+            "collisions": [
+                {
+                    "pos": [
+                        0.375,
+                        1.3125,
+                        -2.875
+                    ],
+                    "width": 0.5,
+                    "height": 2,
+                    "variableName": "door_L",
+                    "variableType": "toggle",
+                    "variableValue": 0.0
+                }
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "door_L",
+                    "centerPoint": [
+                        1.375,
+                        2.8125,
+                        -3
+                    ],
+                    "duration": 45,
+                    "axis": [
+                        0,
+                        -150,
+                        0
+                    ]
+                }
+            ]
+        }
+    ],
+    "rendering": {
+        "textObjects": [],
+        "animatedObjects": [
+            {
+                "objectName": "door_R",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_R",
+                        "centerPoint": [
+                            -1.375,
+                            2.8125,
+                            -3
+                        ],
+                        "axis": [
+                            0,
+                            150,
+                            0
+                        ],
+                        "duration": 45,
+                        "forwardsEasing": "easeInOutQuad",
+                        "reverseEasing": "easeInOutQuad",
+                        "forwardsStartSound": "iv_tpp:container_openning",
+                        "reverseStartSound": "iv_tpp:container_closing"
+                    }
+                ]
+            },
+            {
+                "objectName": "door_L",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "door_L",
+                        "centerPoint": [
+                            1.375,
+                            2.8125,
+                            -3
+                        ],
+                        "axis": [
+                            0,
+                            -150,
+                            0
+                        ],
+                        "duration": 45,
+                        "forwardsEasing": "easeInOutQuad",
+                        "reverseEasing": "easeInOutQuad",
+                        "forwardsStartSound": "iv_tpp:container_openning",
+                        "reverseStartSound": "iv_tpp:container_closing"
+                    }
+                ]
+            }
+        ]
+    }
+}
