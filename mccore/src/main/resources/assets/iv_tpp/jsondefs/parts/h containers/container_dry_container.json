@@ -76,7 +76,7 @@
     },
     "generic": {
         "width": 3,
-        "height": 3,
+        "height": 0.25,
         "canBePlacedOnGround": true
     },
     "collisionGroups": [
