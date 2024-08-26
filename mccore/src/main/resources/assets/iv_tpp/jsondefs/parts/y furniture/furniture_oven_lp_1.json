@@ -1,6 +1,9 @@
 {
   "generic": {
-    "type": "interactable_furniture"
+    "type": "interactable_furnace",
+    "width": 1.0,
+    "height": 1.0,
+    "canBePlacedOnGround": true
   },
   "interactable": {
     "interactionType": "furnace",
