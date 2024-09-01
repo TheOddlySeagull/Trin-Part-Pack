@@ -69,6 +69,7 @@
         "modelName": "container_dry_container",
         "name": "Trin Shipping Dry Container",
         "stackSize": 1,
+        "health": 150,
         "description": "A standard shipping container for all your shipping needs.",
         "materials": [
             "minecraft:iron_block:0:8"
