@@ -419,7 +419,15 @@
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Vibrant Pink Candy",
       "extraMaterialLists": [
-        ["minecraft:dye:13:8","minecraft:dye:9:1","minecraft:glowstone_dust:0:1"]
+        ["minecraft:dye:13:10","minecraft:glowstone_dust:0:1"]
+      ]
+    },
+    {
+      "subName": "_darkpinkcandy",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Vibrant Dark Pink Candy",
+      "extraMaterialLists": [
+        ["minecraft:dye:5:10","minecraft:glowstone_dust:0:1"]
       ]
     },
     {
@@ -427,7 +435,7 @@
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Vibrant Purple",
       "extraMaterialLists": [
-        ["minecraft:dye:5:10","minecraft:glowstone_dust:0:1"]
+        ["minecraft:dye:5:8","minecraft:dye:4:2","minecraft:glowstone_dust:0:1"]
       ]
     }
   ],
