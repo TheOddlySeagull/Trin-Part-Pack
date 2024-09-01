@@ -41,7 +41,7 @@
     {
       "subName": "_gold",
       "modelName": "wrap_roll",
-      "name": "Car Wrap Roll - Dold Wrap",
+      "name": "Car Wrap Roll - Gold Wrap",
       "extraMaterialLists": [
         ["minecraft:gold_ingot:0:1"]
       ]
