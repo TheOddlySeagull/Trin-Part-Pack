@@ -1,5 +1,18 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.26.0 changelog:
+
+### Main Additions:
+- Introduced Trin Invisiseat (sitting)
+- Introduced Trin Invisiseat (standing)
+- Introduced Reefer Container (single), in 8 skins
+
+### Additions:
+- Added Dark Candy Paint color
+
+### Fixes:
+- Fixed Typo on gold wrap
+
 ## Trin Part Pack 2.25.0 changelog:
 
 ### Main Additions:
