@@ -315,7 +315,7 @@
       "extraMaterialLists": []
     },
     {
-      "subName": "_rallye_nr_b",
+      "subName": "_rallye_nr",
       "modelName": "dashboard_console_main",
       "name": "Trin Rallye Dashboard Main Console",
       "description": "Only the basics\nCarbon Fiber",
