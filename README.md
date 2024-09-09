@@ -9,6 +9,7 @@
 
 ### Additions:
 - Added Dark Candy Paint color
+- Added many more variants of dashboard parts
 
 ### Fixes:
 - Fixed Typo on gold wrap
