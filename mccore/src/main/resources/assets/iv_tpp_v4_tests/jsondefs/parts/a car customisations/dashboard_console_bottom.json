@@ -40,6 +40,41 @@
       "name": "Trin Low End Dashboard Bottom Console",
       "description": "Brown",
       "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_g",
+      "modelName": "dashboard_console_bottom",
+      "name": "Trin High End Dashboard Bottom Console",
+      "description": "Gray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_w",
+      "modelName": "dashboard_console_bottom",
+      "name": "Trin High End Dashboard Bottom Console",
+      "description": "White",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r",
+      "modelName": "dashboard_console_bottom",
+      "name": "Trin High End Dashboard Bottom Console",
+      "description": "Red",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_t",
+      "modelName": "dashboard_console_bottom",
+      "name": "Trin High End Dashboard Bottom Console",
+      "description": "Tan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_b",
+      "modelName": "dashboard_console_bottom",
+      "name": "Trin High End Dashboard Bottom Console",
+      "description": "Brown",
+      "extraMaterialLists": []
     }
   ],
   "rendering": {

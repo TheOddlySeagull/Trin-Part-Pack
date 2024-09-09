@@ -40,6 +40,286 @@
       "name": "Trin Low End Dashboard Main Console",
       "description": "No Radio\nBrown",
       "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_moderntruck_nr_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_moderntruck_nr_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_moderntruck_nr_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_moderntruck_nr_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_moderntruck_nr_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r1_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 1)",
+      "description": "Radio\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r1_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 1)",
+      "description": "Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r1_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 1)",
+      "description": "Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r1_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 1)",
+      "description": "Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r1_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 1)",
+      "description": "Radio\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r2_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 2)",
+      "description": "Radio\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r2_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 2)",
+      "description": "Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r2_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 2)",
+      "description": "Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r2_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 2)",
+      "description": "Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_highend_r2_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin High End Dashboard Main Console (type 2)",
+      "description": "Radio\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_moderntruck_nr_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_moderntruck_nr_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_moderntruck_nr_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_moderntruck_nr_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_moderntruck_nr_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Modern Truck Dashboard Main Console",
+      "description": "Tablet\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_r_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "Radio\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_r_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_r_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_r_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_lowend_r_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Low End Dashboard Main Console",
+      "description": "Radio\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r1_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 1)",
+      "description": "Radio\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r1_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 1)",
+      "description": "Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r1_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 1)",
+      "description": "Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r1_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 1)",
+      "description": "Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r1_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 1)",
+      "description": "Radio\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r2_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 2)",
+      "description": "Radio\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r2_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 2)",
+      "description": "Radio\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r2_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 2)",
+      "description": "Radio\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_midend_r2_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Mid End Dashboard Main Console (type 2)",
+      "description": "Radio\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_modern_nr_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Modern Dashboard Main Console",
+      "description": "Tablet\nBrown",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_modern_nr_g",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Modern Dashboard Main Console",
+      "description": "Tablet\nGray",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_modern_nr_r",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Modern Dashboard Main Console",
+      "description": "Tablet\nRed",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_modern_nr_t",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Modern Dashboard Main Console",
+      "description": "Tablet\nTan",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_modern_nr_w",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Modern Dashboard Main Console",
+      "description": "Tablet\nWhite",
+      "extraMaterialLists": []
+    },
+    {
+      "subName": "_rallye_nr_b",
+      "modelName": "dashboard_console_main",
+      "name": "Trin Rallye Dashboard Main Console",
+      "description": "Only the basics\nCarbon Fiber",
+      "extraMaterialLists": []
     }
   ],
   "rendering": {
