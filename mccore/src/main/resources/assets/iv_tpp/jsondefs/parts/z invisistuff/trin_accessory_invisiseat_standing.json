@@ -1,0 +1,23 @@
+{
+	"general": {
+		"name": "Trin  Standing Invisiseat",
+		"type": "seat_invisible"
+	},
+	
+	"subParts": [
+		{
+			"pos": [0, 0.001, 0],
+			"types": ["generic_npc"],
+			"minValue": 0,
+			"maxValue": 1
+		}
+	],
+	
+	"seat": {
+		"standing": true
+	},
+
+	"rendering": {
+		"modelType": "none"
+	}
+}
