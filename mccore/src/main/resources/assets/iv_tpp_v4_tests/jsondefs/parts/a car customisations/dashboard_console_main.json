@@ -2,7 +2,8 @@
   "generic": {
     "type": "generic_dashboard_console",
     "width": 0.5,
-    "height": 0.5
+    "height": 0.5,
+    "mustBeRemovedByScrewdriver": true
   },
   "definitions": [
     {
