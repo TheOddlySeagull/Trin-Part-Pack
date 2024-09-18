@@ -1,0 +1,49 @@
+{
+  "generic": {
+    "type": "interactable_crate",
+    "canBePlacedOnGround": true,
+    "width": 0.75,
+    "height": 0.75
+  },
+  "interactable": {
+    "interactionType": "crate",
+    "inventoryUnits": 3.0
+  },
+  "definitions": [
+    {
+      "subName": "_cardboard",
+      "modelName": "trin_stacked_boxes",
+      "name": "Trin Stacked Boxes (Cardboard varient 1)",
+      "extraMaterials": ["minecraft:paper:0:25"]
+    },
+    {
+      "subName": "_cardboard_2",
+      "modelName": "trin_stacked_boxes",
+      "name": "Trin Stacked Boxes (Cardboard varient 2)",
+      "extraMaterials": ["minecraft:paper:0:25"]
+    },
+    {
+      "subName": "_sculpted_light",
+      "modelName": "trin_stacked_boxes",
+      "name": "Trin Stacked Boxes (Sculpted light wood)",
+      "extraMaterials": ["mts:iv_tpp.wood_panel_pile_osb:0:4"]
+    },
+    {
+      "subName": "_ornate_marble",
+      "modelName": "trin_stacked_boxes",
+      "name": "Trin Stacked Boxes (Gold ornated marble)",
+      "extraMaterials": ["mts:iv_tdp_misc.crafting_stone_slab_white_marble:0:2", "minecraft:gold_ingot:0:1"]
+    },
+    {
+      "subName": "_ornate_gold",
+      "modelName": "trin_stacked_boxes",
+      "name": "Trin Stacked Boxes (Gold ornated cherry wood)",
+      "extraMaterials": ["mts:iv_tpp.wood_panel_pile_cherry:0:4", "minecraft:gold_ingot:0:1"]
+    }
+  ],
+  "general": {
+    "materials": [],
+    "stackSize": 4,
+    "description": "A stack of boxes. They look like they're about to fall over."
+  }
+}
