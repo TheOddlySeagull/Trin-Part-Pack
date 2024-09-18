@@ -6,6 +6,7 @@
 - Introduced Trin Invisiseat (sitting)
 - Introduced Trin Invisiseat (standing)
 - Introduced Reefer Container (single), in 8 skins
+- Introduced a new crate type: stacked boxes. In 5 skins
 
 ### Additions:
 - Added Dark Candy Paint color
