@@ -2,7 +2,8 @@
   "generic": {
     "type": "generic_truckbed",
     "width": 3.0,
-    "height": 0.2
+    "height": 0.2,
+    "canBePlacedOnGround": true
   },
   "subParts": [
     {
@@ -324,6 +325,7 @@
   },
   "general": {
     "name": "Truck Bed - Horse Transport",
+    "stackSize": 1,
     "health": 100,
     "materialLists": [
       [
