@@ -68,7 +68,7 @@
       ],
       "rot": [
         0.0,
-        0.0,
+        90.0,
         0.0
       ],
       "defaultPart": "iv_tpp:animal_crate",
@@ -91,7 +91,7 @@
       ],
       "rot": [
         0.0,
-        0.0,
+        90.0,
         0.0
       ],
       "defaultPart": "iv_tpp:animal_crate",
@@ -101,7 +101,7 @@
       ],
       "interactableVariables": [
         [
-          "door_R"
+          "door_F"
         ]
       ],
       "isPermanent": true
@@ -114,7 +114,7 @@
       ],
       "rot": [
         0.0,
-        0.0,
+        90.0,
         0.0
       ],
       "defaultPart": "iv_tpp:animal_crate",
@@ -124,7 +124,7 @@
       ],
       "interactableVariables": [
         [
-          "door_F"
+          "door_R"
         ]
       ],
       "isPermanent": true
