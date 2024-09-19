@@ -1,8 +1,10 @@
 {
   "generic": {
-    "type": "seat_animal"
+    "type": "seat"
   },
-  "seat": {},
+  "seat": {
+    "standing": true
+  },
   "definitions": [
     {
       "subName": "",
@@ -21,7 +23,10 @@
     "name": "Animal Crate",
     "health": 100,
     "materialLists": [
-      ["minecraft:iron_ingot:0:4","minecraft:string:0:4"]
+      [
+        "minecraft:iron_ingot:0:4",
+        "minecraft:string:0:4"
+      ]
     ],
     "stackSize": 64
   }
