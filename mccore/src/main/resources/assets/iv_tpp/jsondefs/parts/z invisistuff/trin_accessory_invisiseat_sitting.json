@@ -1,7 +1,8 @@
 {
 	"general": {
 		"name": "Trin Invisiseat",
-		"type": "seat_invisible"
+		"type": "seat_invisible",
+		"stackSize": 64
 	},
 	"subParts": [
 		{
