@@ -80,7 +80,8 @@
         [
           "ramp"
         ]
-      ]
+      ],
+      "isPermanent": true
     },
     {
       "pos": [
@@ -102,7 +103,8 @@
         [
           "door_R"
         ]
-      ]
+      ],
+      "isPermanent": true
     },
     {
       "pos": [
@@ -124,7 +126,8 @@
         [
           "door_F"
         ]
-      ]
+      ],
+      "isPermanent": true
     }
   ],
   "collisionGroups": [
