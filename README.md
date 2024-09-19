@@ -15,6 +15,10 @@
 ### Fixes:
 - Fixed Typo on gold wrap
 
+### Tweaks:
+- Tweaked animal crate to be considered as a standing seat
+- Tweaked Horse Transport Truck Bed to be easily removed from a truck and be placed in world
+
 ## Trin Part Pack 2.25.0 changelog:
 
 ### Main Additions:
