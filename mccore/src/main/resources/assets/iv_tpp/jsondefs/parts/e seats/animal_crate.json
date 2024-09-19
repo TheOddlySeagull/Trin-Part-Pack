@@ -1,6 +1,7 @@
 {
   "generic": {
-    "type": "seat"
+    "type": "seat",
+    "canBePlacedOnGround": true
   },
   "seat": {
     "standing": true
