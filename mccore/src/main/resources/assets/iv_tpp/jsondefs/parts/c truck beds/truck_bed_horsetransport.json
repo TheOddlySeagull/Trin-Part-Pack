@@ -4,53 +4,125 @@
     "width": 3.0,
     "height": 0.2
   },
-  "parts": [
+  "subParts": [
     {
-      "pos": [0.0,2.6875,-1.0625],
-      "rot": [90.0,0.0,0.0],
+      "pos": [
+        0.0,
+        2.6875,
+        -1.0625
+      ],
+      "rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
       "maxValue": 3.0,
       "defaultPart": "iv_tpp:led_headlight_w_chrome",
-      "types": ["generic_ledlight"]
+      "types": [
+        "generic_ledlight"
+      ],
+      "isPermanent": true
     },
     {
-      "pos": [0.0,2.6875,-3.09375],
-      "rot": [90.0,0.0,0.0],
+      "pos": [
+        0.0,
+        2.6875,
+        -3.09375
+      ],
+      "rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
       "maxValue": 3.0,
       "defaultPart": "iv_tpp:led_headlight_w_chrome",
-      "types": ["generic_ledlight"]
+      "types": [
+        "generic_ledlight"
+      ],
+      "isPermanent": true
     },
     {
-      "pos": [0.0,2.6875,-5.125],
-      "rot": [90.0,0.0,0.0],
+      "pos": [
+        0.0,
+        2.6875,
+        -5.125
+      ],
+      "rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
       "maxValue": 3.0,
       "defaultPart": "iv_tpp:led_headlight_w_chrome",
-      "types": ["generic_ledlight"]
+      "types": [
+        "generic_ledlight"
+      ],
+      "isPermanent": true
     },
     {
-      "pos": [0.0,0.3125,-5.09375],
-      "rot": [0.0,0.0,0.0],
+      "pos": [
+        0.0,
+        0.3125,
+        -5.09375
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.0
+      ],
       "defaultPart": "iv_tpp:animal_crate",
-      "types": ["seat_animal"],
+      "types": [
+        "seat",
+        "seat_invisible"
+      ],
       "interactableVariables": [
-        ["ramp"]
+        [
+          "ramp"
+        ]
       ]
     },
     {
-      "pos": [0.0,0.3125,-3.03125],
-      "rot": [0.0,0.0,0.0],
+      "pos": [
+        0.0,
+        0.3125,
+        -3.03125
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.0
+      ],
       "defaultPart": "iv_tpp:animal_crate",
-      "types": ["seat_animal"],
+      "types": [
+        "seat",
+        "seat_invisible"
+      ],
       "interactableVariables": [
-        ["door_R"]
+        [
+          "door_R"
+        ]
       ]
     },
     {
-      "pos": [0.0,0.3125,-0.96875],
-      "rot": [0.0,0.0,0.0],
+      "pos": [
+        0.0,
+        0.3125,
+        -0.96875
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.0
+      ],
       "defaultPart": "iv_tpp:animal_crate",
-      "types": ["seat_animal"],
+      "types": [
+        "seat",
+        "seat_invisible"
+      ],
       "interactableVariables": [
-        ["door_F"]
+        [
+          "door_F"
+        ]
       ]
     }
   ],
@@ -59,7 +131,11 @@
       "isInterior": true,
       "collisions": [
         {
-          "pos": [1.5,0.8125,-4.875],
+          "pos": [
+            1.5,
+            0.8125,
+            -4.875
+          ],
           "width": 1.0,
           "height": 0.5,
           "variableName": "ramp",
@@ -70,7 +146,11 @@
         {
           "animationType": "translation",
           "variable": "ramp",
-          "axis": [0.5,-1.0625,0.0]
+          "axis": [
+            0.5,
+            -1.0625,
+            0.0
+          ]
         }
       ]
     },
@@ -78,7 +158,11 @@
       "isInterior": true,
       "collisions": [
         {
-          "pos": [1.5,1.75,-4.875],
+          "pos": [
+            1.5,
+            1.75,
+            -4.875
+          ],
           "width": 1.0,
           "height": 0.5,
           "variableName": "ramp",
@@ -89,7 +173,11 @@
         {
           "animationType": "translation",
           "variable": "ramp",
-          "axis": [1.5,-2.625,0.0]
+          "axis": [
+            1.5,
+            -2.625,
+            0.0
+          ]
         }
       ]
     },
@@ -97,7 +185,11 @@
       "isInterior": true,
       "collisions": [
         {
-          "pos": [1.125,1.125,-2.0],
+          "pos": [
+            1.125,
+            1.125,
+            -2.0
+          ],
           "width": 0.3125,
           "height": 0.125,
           "variableName": "door_R",
@@ -108,7 +200,11 @@
         {
           "animationType": "translation",
           "variable": "door_R",
-          "axis": [-1.09375,0.0,-1.15625]
+          "axis": [
+            -1.09375,
+            0.0,
+            -1.15625
+          ]
         }
       ]
     },
@@ -116,7 +212,11 @@
       "isInterior": true,
       "collisions": [
         {
-          "pos": [1.125,1.125,-4.0],
+          "pos": [
+            1.125,
+            1.125,
+            -4.0
+          ],
           "width": 0.3125,
           "height": 0.125,
           "variableName": "door_F",
@@ -127,7 +227,11 @@
         {
           "animationType": "translation",
           "variable": "door_F",
-          "axis": [-1.09375,0.0,-1.15625]
+          "axis": [
+            -1.09375,
+            0.0,
+            -1.15625
+          ]
         }
       ]
     }
@@ -150,8 +254,16 @@
           {
             "animationType": "rotation",
             "variable": "ramp",
-            "centerPoint": [1.5,0.0625,-5.6875],
-            "axis": [0.0,0.0,-120.0],
+            "centerPoint": [
+              1.5,
+              0.0625,
+              -5.6875
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              -120.0
+            ],
             "duration": 40,
             "forwardsStartSound": "iv_tpp:bootopen",
             "reverseEndSound": "iv_tpp:bootclose"
@@ -164,8 +276,16 @@
           {
             "animationType": "rotation",
             "variable": "door_F",
-            "centerPoint": [0.0,1.3125,-4.03125],
-            "axis": [0.0,90.0,0.0],
+            "centerPoint": [
+              0.0,
+              1.3125,
+              -4.03125
+            ],
+            "axis": [
+              0.0,
+              90.0,
+              0.0
+            ],
             "duration": 20,
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
@@ -178,8 +298,16 @@
           {
             "animationType": "rotation",
             "variable": "door_R",
-            "centerPoint": [0.0,1.3125,-2.03125],
-            "axis": [0.0,90.0,0.0],
+            "centerPoint": [
+              0.0,
+              1.3125,
+              -2.03125
+            ],
+            "axis": [
+              0.0,
+              90.0,
+              0.0
+            ],
             "duration": 20,
             "forwardsStartSound": "iv_tpp:dooropen",
             "reverseEndSound": "iv_tpp:doorclose"
@@ -188,7 +316,9 @@
       }
     ],
     "lightObjects": [],
-    "customVariables": ["ramp"],
+    "customVariables": [
+      "ramp"
+    ],
     "particles": [],
     "modelType": "obj"
   },
@@ -196,7 +326,13 @@
     "name": "Truck Bed - Horse Transport",
     "health": 100,
     "materialLists": [
-      ["mts:iv_tpp.metal_pile_2:0:2","mts:iv_tpp.metal_pile_1:0:12","mts:iv_tpp.metal_pile_3:0:8","minecraft:iron_ingot:0:40","mts:iv_tpp.led_headlight_w_chrome:0:3"]
+      [
+        "mts:iv_tpp.metal_pile_2:0:2",
+        "mts:iv_tpp.metal_pile_1:0:12",
+        "mts:iv_tpp.metal_pile_3:0:8",
+        "minecraft:iron_ingot:0:40",
+        "mts:iv_tpp.led_headlight_w_chrome:0:3"
+      ]
     ]
   }
 }
