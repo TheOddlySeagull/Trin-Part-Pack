@@ -2,11 +2,13 @@
   "generic": {
     "type": "interactable_crate_roof",
     "canBePlacedOnGround": true,
+    "canBeRemovedByHand": true,
     "width": 0.75,
     "height": 0.75
   },
   "interactable": {
     "interactionType": "crate",
+		"feedsVehicles" : false,
     "inventoryUnits": 3.0
   },
   "definitions": [
