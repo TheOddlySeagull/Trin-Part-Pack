@@ -1,5 +1,10 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.27.0 changelog:
+
+### Fixes:
+- Fixed trin Bicycle Wheel
+
 ## Trin Part Pack 2.26.0 changelog:
 
 ### Main Additions:
