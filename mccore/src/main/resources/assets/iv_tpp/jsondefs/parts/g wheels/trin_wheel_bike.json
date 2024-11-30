@@ -1,12 +1,20 @@
 {
   "generic": {
-    "type": "ground_wheel",
+    "type": "ground_wheel_bicycle",
     "movementAnimations": [
       {
         "animationType": "rotation",
         "variable": "ground_rotation",
-        "centerPoint": [0.0,0.0,0.0],
-        "axis": [1.0,0.0,0.0]
+        "centerPoint": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
       }
     ]
   },
@@ -28,7 +36,7 @@
     {
       "subName": "",
       "modelName": "trin_wheel_bike",
-      "name": "Bike Trin Wheel (14*1)",
+      "name": "Bicycle Trin Wheel (14*1)",
       "extraMaterialLists": [
         []
       ]
@@ -78,7 +86,11 @@
         "type": "smoke",
         "quantity": 4,
         "color": "FFFFFF",
-        "initialVelocity": [0.0,0.15,0.0],
+        "initialVelocity": [
+          0.0,
+          0.15,
+          0.0
+        ],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -92,7 +104,11 @@
         "type": "smoke",
         "quantity": 4,
         "color": "FFFFFF",
-        "initialVelocity": [0.0,0.15,0.0],
+        "initialVelocity": [
+          0.0,
+          0.15,
+          0.0
+        ],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -106,7 +122,11 @@
         "type": "break",
         "quantity": 1,
         "color": "FFFFFF",
-        "initialVelocity": [0.0,0.2,-0.2],
+        "initialVelocity": [
+          0.0,
+          0.2,
+          -0.2
+        ],
         "activeAnimations": [
           {
             "animationType": "visibility",
@@ -120,13 +140,20 @@
     "modelType": "obj"
   },
   "general": {
-    "name": "Bike Trin Wheel (14*1)",
-    "health": 100,
+    "name": "Bicycle Trin Wheel (14*1)",
+    "health": 40,
     "materialLists": [
-      ["minecraft:dye:0:3","minecraft:iron_nugget:0:10","minecraft:wool:15:1"]
+      [
+        "minecraft:dye:0:3",
+        "minecraft:iron_nugget:0:10",
+        "minecraft:wool:15:1"
+      ]
     ],
     "repairMaterialLists": [
-      ["minecraft:dye:0:3","minecraft:wool:15:1"]
+      [
+        "minecraft:dye:0:3",
+        "minecraft:wool:15:1"
+      ]
     ],
     "stackSize": 64
   }
