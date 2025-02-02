@@ -1,0 +1,176 @@
+{
+  "generic": {
+    "type": "generic_ledlight",
+    "forwardsDamageMultiplier": 0.0,
+    "width": 0.421875,
+    "height": 0.265625,
+    "canBePlacedOnGround": true,
+    "placedOffset": 0.2,
+    "mustBeRemovedByScrewdriver": true
+  },
+  "definitions": [
+    {
+      "subName": "_chrome",
+      "name": "Large Retro Red Oil Running Light with chrome casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:8:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_copper",
+      "name": "Large Retro Red Oil Running Light with copper casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:3:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_gray",
+      "name": "Large Retro Red Oil Running Light with gray casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:7:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_green",
+      "name": "Large Retro Red Oil Running Light with green casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:2:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_rust",
+      "name": "Large Retro Red Oil Running Light with rust casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dirt:0:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_white",
+      "name": "Large Retro Red Oil Running Light with white casing",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:15:1"
+        ]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [
+      {
+        "objectName": "lighting_panel",
+        "emissive": true,
+        "covered": true,
+        "isElectric": false,
+        "color": "E60000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "running_light",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [
+              0.0,
+              0.0,
+              0.125
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "flareHeight": 0.5,
+            "flareWidth": 0.5
+          }
+        ]
+      }/*,
+      {
+        "objectName": "lighting_panel_headlight",
+        "emissive": true,
+        "covered": true,
+        "isElectric": false,
+        "color": "E60000",
+        "brightnessAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "headlight",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "blendableComponents": [
+          {
+            "pos": [
+              0.0,
+              0.0,
+              0.125
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "flareHeight": 0.75,
+            "flareWidth": 0.75,
+            "beamDiameter": 12.0,
+            "beamLength": 32.0
+          }
+        ]
+      }*/
+    ],
+    "animatedObjects": [
+      /*{
+        "objectName": "lighting_panel",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "headlight",
+            "clampMin": 0.0,
+            "clampMax": 0.0
+          }
+        ]
+      },
+      {
+        "objectName": "lighting_panel_headlight",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "headlight",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }*/
+    ],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Large Retro Red Oil Light",
+    "stackSize": 64,
+    "health": 30,
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:2",
+        "minecraft:glowstone_dust:0:1",
+        "minecraft:dye:1:1"
+      ]
+    ],
+    "radarWidth": 0.0,
+    "radarRange": 0.0,
+    "modelName": "retro_light_large_oil"
+  }
+}
