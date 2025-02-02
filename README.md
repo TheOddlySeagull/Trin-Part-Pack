@@ -2,8 +2,21 @@
 
 ## Trin Part Pack 2.27.0 changelog:
 
+### Main Additions:
+- Introduced Trin Handcrank
+- Introduced Trin Retro Electric Headlights (small and big)
+- Introduced Trin Retro Oil Running Lights
+- Introduced Trin Retro Electric turn signals
+
 ### Fixes:
 - Fixed trin Bicycle Wheel
+- Fixed Trin E-Bicycle Engine
+
+### Tweaks:
+- Tweaked Trin Stacked Boxes so they can be taken up bare hand with content
+- Tweaked Tanker Truck Bed hitbox size to avoid overlapping with other truck elements
+
+---
 
 ## Trin Part Pack 2.26.0 changelog:
 
@@ -23,6 +36,8 @@
 ### Tweaks:
 - Tweaked animal crate to be considered as a standing seat
 - Tweaked Horse Transport Truck Bed to be easily removed from a truck and be placed in world
+
+---
 
 ## Trin Part Pack 2.25.0 changelog:
 
