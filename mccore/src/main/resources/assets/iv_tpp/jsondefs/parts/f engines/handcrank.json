@@ -1,0 +1,141 @@
+{
+	"generic": {
+		"type": "propeller_handcrank",
+		"forwardsDamageMultiplier": 0.0,
+		"width": 0.375,
+		"height": 0.375,
+		"movementAnimations": [
+			{
+				"animationType": "rotation",
+				"variable": "propeller_rotation",
+				"centerPoint": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"axis": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"offset": 0.0,
+				"clampMin": 0.0,
+				"clampMax": 0.0
+			}
+		]
+	},
+	"propeller": {
+	  "pitchChangeRate": 1,
+	  "diameter": 17
+	},
+	"definitions": [
+		{
+			"subName": "_gray",
+			"extraMaterialLists": [
+				[
+					"minecraft:dye:7:2"
+				]
+			]
+		},
+		{
+			"subName": "_chrome",
+			"extraMaterialLists": [
+				[
+					"minecraft:dye:8:2"
+				]
+			]
+		}
+	],
+	"rendering": {
+	  "animatedObjects": [
+		{
+		  "objectName": "crank",
+		  "animations": [
+			{
+			  "animationType": "rotation",
+			  "variable": "parent_engine_rpm_1",
+			  "centerPoint": [
+				0.0,
+				0.0,
+				0.0
+			  ],
+			  "axis": [
+				0.0,
+				0.0,
+				-0.125
+			  ],
+			  "offset": 0.0
+			},
+			{
+			  "animationType": "rotation",
+			  "variable": "propeller_rotation",
+			  "centerPoint": [
+				0.0,
+				0.0,
+				0.0
+			  ],
+			  "axis": [
+				0.0,
+				0.0,
+				-1
+			  ],
+			  "offset": 0.0
+			},
+			{
+			  "animationType": "rotation",
+			  "variable": "parent_engine_running_1",
+			  "centerPoint": [
+				0.0,
+				0.0,
+				0.0
+			  ],
+			  "axis": [
+				0.0,
+				0.0,
+				90
+			  ],
+			  "offset": 0.0,
+			  "duration": 5
+			},
+			{
+			  "animationType": "inhibitor",
+			  "variable": "parent_engine_running_1",
+			  "offset": 0.0
+			},
+			{
+			  "animationType": "rotation",
+			  "variable": "vehicle_engine_rpm_1",
+			  "centerPoint": [
+				0.0,
+				0.0,
+				0.0
+			  ],
+			  "axis": [
+				0.0,
+				0.0,
+				0.125
+			  ],
+			  "offset": 0.0
+			}
+		  ]
+		}
+	  ],
+	  "lightObjects": [],
+	  "particles": [],
+	  "modelType": "obj"
+	},
+	"general": {
+		"type": "propeller_handcrank",
+		"name": "Trin Hand Crank",
+		"description": "A hand crank for starting good old engines.",
+		"stackSize": 4,
+		"health": 5,
+		"materialLists": [
+			[
+				"minecraft:iron_ingot:0:3"
+			]
+		],
+		"radarWidth": 0.0,
+		"radarRange": 0.0
+	}
+}
