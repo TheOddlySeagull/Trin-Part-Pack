@@ -1,0 +1,95 @@
+{
+  "generic": {
+    "type": "generic_antenna",
+    "mustBeRemovedByScrewdriver": true,
+    "forwardsDamageMultiplier": 1.0,
+    "width": 0.5,
+    "height": 0.5
+  },
+  "parts": [
+    {
+      "pos": [
+        0.0,
+        0.65625,
+        -0.03125
+      ],
+      "rot": [0.0,180.0,0.0],
+      "maxValue": 3.0,
+      "partScale": [0.5,0.5,0.5],
+      "types": [
+        "generic_antenna_topper",
+        "generic_shiftknob"
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "_chrome",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dye:7:1"
+      ]
+    },
+    {
+      "subName": "_copper",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dye:14:1"
+      ]
+    },
+    {
+      "subName": "_gray",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dye:8:1"
+      ]
+    },
+    {
+      "subName": "_green",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dye:2:1"
+      ]
+    },
+    {
+      "subName": "_rust",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dirt:0:1"
+      ]
+    },
+    {
+      "subName": "_white",
+      "modelName": "radio_antenna",
+      "name": "Antenna",
+      "extraMaterials": [
+        "minecraft:dye:15:1"
+      ]
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [],
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "Antenna",
+    "description": "Use a screwdriver to remove this part",
+    "stackSize": 64,
+    "health": 20,
+    "materialLists": [
+      [
+        "oredict:ingotIron:1",
+        "oredict:nuggetIron:2"
+      ]
+    ],
+    "radarWidth": 32.0,
+    "radarRange": 180.0
+  }
+}
