@@ -1,0 +1,72 @@
+{
+  "generic": {
+    "type": "generic_acvent",
+    "mustBeRemovedByScrewdriver": true,
+    "forwardsDamageMultiplier": 1.0,
+    "width": 0.25,
+    "height": 0.25
+  },
+  "parts": [],
+  "definitions": [
+    {
+      "subName": "_basic_beige",
+      "extraMaterials": [
+        "minecraft:dye:11:1"
+      ]
+    },
+    {
+      "subName": "_basic_black",
+      "extraMaterials": [
+        "minecraft:dye:0:1"
+      ]
+    },
+    {
+      "subName": "_basic_brown",
+      "extraMaterials": [
+        "minecraft:dye:3:1"
+      ]
+    },
+    {
+      "subName": "_basic_gray",
+      "extraMaterials": [
+        "minecraft:dye:8:1"
+      ]
+    },
+    {
+      "subName": "_basic_red",
+      "extraMaterials": [
+        "minecraft:dye:1:1"
+      ]
+    },
+    {
+      "subName": "_basic_white",
+      "extraMaterials": [
+        "minecraft:dye:15:1"
+      ]
+    },
+    {
+      "subName": "_chrome",
+      "extraMaterials": [
+        "minecraft:dye:7:1"
+      ]
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [],
+    "lightObjects": [],
+    "particles": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "AC Vent",
+    "description": "Use a screwdriver to remove this part",
+    "stackSize": 64,
+    "health": 20,
+    "materialLists": [
+      [
+        "oredict:ingotIron:1",
+        "oredict:nuggetIron:5"
+      ]
+    ]
+  }
+}
