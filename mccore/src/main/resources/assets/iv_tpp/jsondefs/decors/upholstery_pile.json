@@ -1,0 +1,103 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 1.37021,
+    "height": 0.859488,
+    "depth": 1.14299
+  },
+  "definitions": [
+    {
+      "subName": "_black",
+      "name": "Trin Upholstery Kit - Black",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeBlack:3",
+          "oredict:dyeGray:2"
+        ]
+      ]
+    },
+    {
+      "subName": "_brown",
+      "name": "Trin Upholstery Kit - Brown",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeBrown:4",
+          "oredict:dyeOrange:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_gray_blue",
+      "name": "Trin Upholstery Kit - Gray & Blue",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeGray:3",
+          "oredict:dyeLightGray:1",
+          "oredict:dyeBlue:3",
+          "oredict:stickWood:1",
+          "oredict:wool:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_gray",
+      "name": "Trin Upholstery Kit - Gray",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeGray:2",
+          "oredict:dyeLightGray:3"
+        ]
+      ]
+    },
+    {
+      "subName": "_red",
+      "name": "Trin Upholstery Kit - Red",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeRed:3",
+          "oredict:dyeBrown:1",
+          "oredict:dyeBlack:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_tan",
+      "name": "Trin Upholstery Kit - Tan",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeLightGray:2",
+          "oredict:dyeOrange:1",
+          "oredict:dyeYellow:2"
+        ]
+      ]
+    },
+    {
+      "subName": "_white",
+      "name": "Trin Upholstery Kit - White",
+      "extraMaterialLists": [
+        [
+          "oredict:dyeWhite:3",
+          "oredict:dyeLightGray:2"
+        ]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "modelName": "upholstery_pile",
+    "stackSize": 32,
+    "description": "A bundle of fabric, thread, and care - enough to reupholster a car, or a really ambitious sofa.",
+    "materialLists": [
+      [
+        "oredict:leather:5",
+        "oredict:string:14",
+        "oredict:stickWood:3",
+        "oredict:nuggetIron:1",
+        "oredict:wool:4"
+      ]
+    ]
+  }
+}
