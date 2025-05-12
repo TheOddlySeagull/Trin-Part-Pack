@@ -8,6 +8,12 @@
 - Introduced Trin Retro Oil Running Lights
 - Introduced Trin Retro Electric turn signals
 - Introduced Trin Radio Antenna cosmetic
+- Introduced Trin Upholstery Kits in all interior color varients as decor and crafting element
+
+### Additions:
+- Added Seafoam Paint color
+- Added AC Vent parts
+- Added Radio Antenna parts
 
 ### Fixes:
 - Fixed trin Bicycle Wheel
