@@ -26,7 +26,7 @@
     {
       "subName": "_chrome",
       "modelName": "radio_antenna",
-      "name": "Antenna",
+      "name": "Chrome Antenna",
       "extraMaterials": [
         "minecraft:dye:7:1"
       ]
