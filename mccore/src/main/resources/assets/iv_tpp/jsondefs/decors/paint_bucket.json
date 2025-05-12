@@ -159,11 +159,19 @@
       ]
     },
     {
+      "subName": "_seafoam",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Seafoam",
+      "extraMaterialLists": [
+        ["minecraft:dye:2:8","minecraft:dye:15:2","minecraft:dye:6:2","minecraft:dye:7:1","minecraft:dye:10:1"]
+      ]
+    },
+    {
       "subName": "_softgreen",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Soft Green",
       "extraMaterialLists": [
-        ["minecraft:dye:2:8","minecraft:dye:15:2"]
+        ["minecraft:dye:15:4","minecraft:dye:2:2"]
       ]
     },
     {
