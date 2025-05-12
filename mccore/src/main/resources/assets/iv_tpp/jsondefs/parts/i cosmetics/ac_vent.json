@@ -9,37 +9,37 @@
   "parts": [],
   "definitions": [
     {
-      "subName": "_basic_beige",
+      "subName": "_beige",
       "extraMaterials": [
         "minecraft:dye:11:1"
       ]
     },
     {
-      "subName": "_basic_black",
+      "subName": "_black",
       "extraMaterials": [
         "minecraft:dye:0:1"
       ]
     },
     {
-      "subName": "_basic_brown",
+      "subName": "_brown",
       "extraMaterials": [
         "minecraft:dye:3:1"
       ]
     },
     {
-      "subName": "_basic_gray",
+      "subName": "_gray",
       "extraMaterials": [
         "minecraft:dye:8:1"
       ]
     },
     {
-      "subName": "_basic_red",
+      "subName": "_red",
       "extraMaterials": [
         "minecraft:dye:1:1"
       ]
     },
     {
-      "subName": "_basic_white",
+      "subName": "_white",
       "extraMaterials": [
         "minecraft:dye:15:1"
       ]
