@@ -3,7 +3,7 @@
 ## Trin Part Pack 2.27.0 changelog:
 
 ### Main Additions:
-- Introduced Trin Handcrank
+- Full support for 1.18 and 1.19 Minecraft versions
 - Introduced Trin Retro Electric Headlights (small and big)
 - Introduced Trin Retro Oil Running Lights
 - Introduced Trin Retro Electric turn signals
