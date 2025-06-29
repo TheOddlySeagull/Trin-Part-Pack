@@ -1,5 +1,9 @@
 # Trin Part Pack Changelogs
 
+## Trin Part Pack 2.27.1 changelog:
+### Additions:
+- Added Patrol Blue Paint color
+
 ## Trin Part Pack 2.27.0 changelog:
 
 ### Main Additions:

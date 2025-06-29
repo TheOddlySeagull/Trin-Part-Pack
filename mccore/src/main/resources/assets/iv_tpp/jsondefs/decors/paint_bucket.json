@@ -119,6 +119,20 @@
       ]
     },
     {
+      "subName": "_patrolblue",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Patrol Blue",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:4:5",
+          "minecraft:dye:12:2",
+          "minecraft:dye:0:1",
+          "minecraft:dye:8:1",
+          "minecraft:dye:15:1"
+        ]
+      ]
+    },
+    {
       "subName": "_teal",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Teal",
