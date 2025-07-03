@@ -2,7 +2,14 @@
 
 ## Trin Part Pack 2.27.1 changelog:
 ### Additions:
-- Added Patrol Blue Paint color
+- Paint Buckets:
+  - Added Patrol Blue Paint color
+  - Added Gramados Amber Paint color
+  - Added Gunstock Paint color
+- Service Stickers:
+  - Added Gramados Unified Energy Commission (GUEC) service sticker
+  - Added Highway Service service sticker
+  - Added service sticker number for older liveries
 
 ## Trin Part Pack 2.27.0 changelog:
 

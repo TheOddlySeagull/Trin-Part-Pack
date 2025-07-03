@@ -269,6 +269,20 @@
       ]
     },
     {
+      "subName": "_gramadosamber",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Gramados Amber",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:14:5",
+          "minecraft:dye:1:2",
+          "minecraft:dye:11:1",
+          "minecraft:dye:3:1",
+          "minecraft:dye:15:1"
+        ]
+      ]
+    },
+    {
       "subName": "_fireorange",
       "modelName": "paint_bucket",
       "name": "Paint Bucket - Fire Orange",
@@ -362,6 +376,20 @@
       "name": "Paint Bucket - Amber",
       "extraMaterialLists": [
         ["minecraft:dye:3:8","minecraft:dye:14:2"]
+      ]
+    },
+    {
+      "subName": "_gunstock",
+      "modelName": "paint_bucket",
+      "name": "Paint Bucket - Gunstock",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:0:4",
+          "minecraft:dye:3:2",
+          "minecraft:dye:1:2",
+          "minecraft:dye:14:1",
+          "minecraft:dye:4:1"
+        ]
       ]
     },
     {
