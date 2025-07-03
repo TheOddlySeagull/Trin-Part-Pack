@@ -34,6 +34,36 @@
       "description": "Sheriff Police",
       "subName": "_police_sheriff",
       "extraMaterialLists": []
+    },
+    {"_comment": "fire dept",
+      "name": "Service Text Sticker",
+      "modelName": "service_sticker_text",
+
+      "textureName": "service_sticker_text_firedept",
+      
+      "description": "Fire Department",
+      "subName": "_firedept",
+      "extraMaterialLists": []
+    },
+    {"_comment": "generic taxi",
+      "subName": "_taxi_generic",
+      "description": "Generic Taxi",
+      "extraMaterialLists": []
+    },
+    {"_comment": "gramados taxi",
+      "subName": "_taxi_gramados",
+      "description": "Gramados Taxi",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Gramados Unified Energy Commission (GUEC)",
+      "subName": "_guec",
+      "description": "Gramados Unified Energy Commission (GUEC)",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Highway Service",
+      "subName": "_hws",
+      "description": "Highway Service",
+      "extraMaterialLists": []
     }
   ],
   "rendering": {
@@ -44,6 +74,7 @@
   "general": {
     "health": 20,
     "stackSize": 64,
+      "name": "Service Text Sticker",
     "materialLists": [
       []
     ]

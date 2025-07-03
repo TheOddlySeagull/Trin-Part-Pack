@@ -94,6 +94,12 @@
       "description": "Gramados Taxi",
       "subName": "_taxi_gramados",
       "extraMaterialLists": []
+    },
+    {"_comment": "Gramados Unified Energy Commission (GUEC)",
+      "subName": "_guec",
+      "textureName": "service_sticker_coa_guec",
+      "description": "Gramados Unified Energy Commission (GUEC), 119",
+      "extraMaterialLists": []
     }
   ],
   "rendering": {

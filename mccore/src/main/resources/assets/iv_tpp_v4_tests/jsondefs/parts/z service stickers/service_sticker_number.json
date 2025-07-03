@@ -64,6 +64,26 @@
       "description": "Gas SOS, 15",
       "subName": "_gassos",
       "extraMaterialLists": []
+    },
+    {"_comment": "generic taxi",
+      "subName": "_taxi_generic",
+      "description": "Generic Taxi, 117",
+      "extraMaterialLists": []
+    },
+    {"_comment": "gramados taxi",
+      "subName": "_taxi_gramados",
+      "description": "Gramados Taxi, 117",
+      "extraMaterialLists": []
+    },
+    {"_comment": "hws",
+      "subName": "_hws",
+      "description": "Highway Service, 122",
+      "extraMaterialLists": []
+    },
+    {"_comment": "Gramados Unified Energy Commission (GUEC)",
+      "subName": "_guec",
+      "description": "Gramados Unified Energy Commission (GUEC), 119",
+      "extraMaterialLists": []
     }
   ],
   "rendering": {
@@ -74,6 +94,7 @@
   "general": {
     "health": 20,
     "stackSize": 64,
+    "name": "Service Number Sticker",
     "materialLists": [
       []
     ]
