@@ -10,6 +10,7 @@
   - Added Gramados Unified Energy Commission (GUEC) service sticker
   - Added Highway Service service sticker
   - Added service sticker number for older liveries
+- Added "Aged Particle Slurry" - a crafting decor used for rust and decay.
 
 ## Trin Part Pack 2.27.0 changelog:
 

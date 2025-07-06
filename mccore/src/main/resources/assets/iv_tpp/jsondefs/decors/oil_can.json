@@ -1,0 +1,42 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 0.5,
+    "height": 0.5625,
+    "depth": 0.25
+  },
+  "definitions": [
+    {
+      "subName": "_agedparticleslurry",
+      "name": "Aged Particle Slurry",
+      "description": "A sealed TFJ container with no manufacturing date, no safety markings, and a handwritten label that just says 'don't shake.' Nobody knows what's inside. Mechanics love it.",
+      "extraMaterialLists": [
+        [
+          "minecraft:firework_charge:0:1",
+          "oredict:dustGlowstone:2",
+          "oredict:gunpowder:2",
+          "minecraft:fermented_spider_eye:0:2",
+          "minecraft:blaze_powder:0:2",
+          "minecraft:rotten_flesh:0:1",
+          "minecraft:chorus_fruit_popped:0:3",
+          "minecraft:snowball:0:1",
+          "oredict:dye:10"
+        ]
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "stackSize": 32,
+    "materialLists": [
+      [
+        "oredict:ingotIron:4",
+        "oredict:paper:2",
+        "minecraft:bucket:0:1"
+      ]
+    ]
+  }
+}
