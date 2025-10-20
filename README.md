@@ -6,6 +6,9 @@ Immersive Vehicles (MTS/IV) parts pack providing engines, wheels, seats, crates,
 
 </div>
 
+[![Discord](https://img.shields.io/badge/Discord-join-7289DA?logo=discord&logoColor=white)](https://discord.gg/ujQR3wf)
+[![Build Status](https://github.com/TheOddlySeagull/Trin-Part-Pack/actions/workflows/build.yml/badge.svg)](https://github.com/TheOddlySeagull/Trin-Part-Pack/actions/workflows/build.yml)
+
 ## Overview
 
 The Trin Part Pack supplies the reusable parts required by Trin vehicle and content packs. Many Trin vehicles won’t spawn without this pack installed.
