@@ -1,0 +1,34 @@
+# File required to load packs as Forge mods.
+# Find more information on toml format v0.5.0 here:  https://github.com/toml-lang/toml
+
+# Forge settings, don't touch!
+modLoader="javafml"
+loaderVersion="[36,)"
+
+# The license for your pack. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All rights reserved"
+
+[[mods]]
+modId="iv_tpp"
+version="2.27.1"
+displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-decor-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tpp_v4_tests"
+version="2.27.1"
+displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-trin-decor-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
