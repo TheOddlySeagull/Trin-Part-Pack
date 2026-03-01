@@ -42,4 +42,4 @@ gradle_exec("buildForge1201")
 py_exec("1-12-2_1-16-5_ID_transformer.py", "--reverse")
 
 # 9) Move item model PNGs back to 1.12.2 assets for a clean repo
-py_exec("generate_item_models.py", "--mode", "move-png", "--reverse")
+py_exec("generate_item_models.py", "--mode", "move-png", "--revert")
