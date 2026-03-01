@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All rights reserved"
+
+[[mods]]
+modId="iv_tpp"
+version="2.27.1"
+displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/trin-part-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[mods]]
+modId="iv_tpp_v4_tests"
+version="2.27.1"
+displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/trin-part-pack"
+logoFile="vingette.png"
+authors="TheOddlySeagull"
+credits=""
+description='''
+The Trims Of Freedom
+'''
+
+[[dependencies.iv_tpp]]
+    modId="mts"
+    type="required"
+    versionRange="[22.6.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.iv_tpp]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
