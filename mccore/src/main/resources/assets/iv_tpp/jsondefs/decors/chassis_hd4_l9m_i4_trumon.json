@@ -1,0 +1,31 @@
+{
+  "decor": {
+    "type": "generic",
+    "width": 2.125,
+    "height": 0.59375,
+    "depth": 7.875
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "modelName": "chassis_hd4_l9m_i4_trumon",
+      "name": "model HD4-l9M-I4 chassis",
+      "extraMaterialLists": [
+        []
+      ]
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "modelType": "obj"
+  },
+  "general": {
+    "name": "model HD4-l9M-I4 chassis",
+    "description": "Used in:\n- Trin Trumon",
+    "materialLists": [
+      [
+        "minecraft:iron_ingot:0:36"
+      ]
+    ]
+  }
+}
