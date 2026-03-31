@@ -10,7 +10,7 @@
       "name": "Model 2 Trin Seat, Gray",
       "extraMaterialLists": [
         [
-          "minecraft:dye:8:2"
+          "mts:iv_tpp.upholstery_pile_gray:0:1"
         ]
       ]
     },
@@ -20,7 +20,7 @@
       "name": "Model 2 Trin Seat, White",
       "extraMaterialLists": [
         [
-          "minecraft:dye:15:2"
+          "mts:iv_tpp.upholstery_pile_white:0:1"
         ]
       ]
     },
@@ -30,7 +30,7 @@
       "name": "Model 2 Trin Seat, Red",
       "extraMaterialLists": [
         [
-          "minecraft:dye:1:2"
+          "mts:iv_tpp.upholstery_pile_red:0:1"
         ]
       ]
     },
@@ -40,7 +40,7 @@
       "name": "Model 2 Trin Seat, Tan",
       "extraMaterialLists": [
         [
-          "minecraft:dye:11:2"
+          "mts:iv_tpp.upholstery_pile_beige:0:1"
         ]
       ]
     },
@@ -50,7 +50,7 @@
       "name": "Model 2 Trin Seat, Brown",
       "extraMaterialLists": [
         [
-          "minecraft:dye:3:2"
+          "mts:iv_tpp.upholstery_pile_brown:0:1"
         ]
       ]
     },
@@ -60,7 +60,7 @@
       "name": "Model 2 Trin Seat, Black",
       "extraMaterialLists": [
         [
-          "minecraft:dye:0:2"
+          "mts:iv_tpp.upholstery_pile_black:0:1"
         ]
       ]
     },
@@ -70,6 +70,7 @@
       "name": "Model 2 Trin Seat, Junk",
       "extraMaterialLists": [
         [
+          "mts:iv_tpp.upholstery_pile_gray:0:1",
           "minecraft:dirt:0:1"
         ]
       ]
@@ -80,9 +81,7 @@
       "name": "Model 2 Trin Seat, Gray And Blue",
       "extraMaterialLists": [
         [
-          "minecraft:dye:0:1",
-          "minecraft:dye:4:2",
-          "minecraft:dye:7:1"
+          "mts:iv_tpp.upholstery_pile_grayblue:0:1"
         ]
       ]
     }
