@@ -59,6 +59,14 @@
       "extraMaterialLists": [
         ["minecraft:dirt:0:1"]
       ]
+    },
+    {
+        "subName": "_grayblue",
+        "modelName": "trin_seat_3",
+        "name": "Model 3 Trin Seat, Gray And Blue",
+        "extraMaterialLists": [
+            ["minecraft:dye:0:1","minecraft:dye:4:2","minecraft:dye:7:1"]
+        ]
     }
   ],
   "rendering": {
