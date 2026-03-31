@@ -4,6 +4,10 @@ import shutil
 from pathlib import Path
 
 
+def get_move_manifest_path(base_path: Path) -> Path:
+    return base_path / ".item_png_move_manifest.json"
+
+
 def collect_item_pngs(assets_dir: Path) -> list[Path]:
     png_files: list[Path] = []
     for pack_dir in assets_dir.iterdir():
@@ -93,12 +97,48 @@ def generate_models(base_path: Path) -> tuple[int, int]:
 
 def move_item_pngs(base_path: Path, revert: bool) -> tuple[int, int, int]:
     assets_dir = base_path / "mccore" / "src" / "main" / "resources" / "assets"
+    manifest_path = get_move_manifest_path(base_path)
     if not assets_dir.exists():
         raise FileNotFoundError(f"Assets directory not found: {assets_dir}")
 
     scanned_count = 0
     moved_count = 0
     replaced_count = 0
+
+    if revert and manifest_path.exists() and manifest_path.is_file():
+        entries = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if not isinstance(entries, list):
+            raise ValueError(f"Invalid move manifest format: {manifest_path}")
+
+        scanned_count = len(entries)
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+
+            source_rel = entry.get("source")
+            destination_rel = entry.get("destination")
+            if not isinstance(source_rel, str) or not isinstance(destination_rel, str):
+                continue
+
+            source_file = assets_dir / destination_rel
+            destination_file = assets_dir / source_rel
+
+            if not source_file.exists() or not source_file.is_file():
+                continue
+
+            destination_file.parent.mkdir(parents=True, exist_ok=True)
+
+            if destination_file.exists():
+                destination_file.unlink()
+                replaced_count += 1
+
+            shutil.move(str(source_file), str(destination_file))
+            moved_count += 1
+
+        manifest_path.unlink(missing_ok=True)
+        return scanned_count, moved_count, replaced_count
+
+    recorded_moves: list[dict[str, str]] = []
 
     for pack_dir in assets_dir.iterdir():
         if not pack_dir.is_dir():
@@ -146,8 +186,20 @@ def move_item_pngs(base_path: Path, revert: bool) -> tuple[int, int, int]:
                         destination_file.unlink()
                         replaced_count += 1
 
+                    recorded_moves.append(
+                        {
+                            "source": str(source_file.relative_to(assets_dir).as_posix()),
+                            "destination": str(destination_file.relative_to(assets_dir).as_posix()),
+                        }
+                    )
                     shutil.move(str(source_file), str(destination_file))
                     moved_count += 1
+
+    if not revert:
+        manifest_path.write_text(
+            json.dumps(recorded_moves, separators=(",", ":")),
+            encoding="utf-8",
+        )
 
     return scanned_count, moved_count, replaced_count
 
