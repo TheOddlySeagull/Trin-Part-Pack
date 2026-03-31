@@ -9,7 +9,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Gray",
       "extraMaterialLists": [
-        ["minecraft:dye:8:2"]
+        [
+          "minecraft:dye:8:2"
+        ]
       ]
     },
     {
@@ -17,7 +19,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, White",
       "extraMaterialLists": [
-        ["minecraft:dye:15:2"]
+        [
+          "minecraft:dye:15:2"
+        ]
       ]
     },
     {
@@ -25,7 +29,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Red",
       "extraMaterialLists": [
-        ["minecraft:dye:1:2"]
+        [
+          "minecraft:dye:1:2"
+        ]
       ]
     },
     {
@@ -33,7 +39,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Tan",
       "extraMaterialLists": [
-        ["minecraft:dye:11:2"]
+        [
+          "minecraft:dye:11:2"
+        ]
       ]
     },
     {
@@ -41,7 +49,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Brown",
       "extraMaterialLists": [
-        ["minecraft:dye:3:2"]
+        [
+          "minecraft:dye:3:2"
+        ]
       ]
     },
     {
@@ -49,7 +59,9 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Black",
       "extraMaterialLists": [
-        ["minecraft:dye:0:2"]
+        [
+          "minecraft:dye:0:2"
+        ]
       ]
     },
     {
@@ -57,7 +69,21 @@
       "modelName": "trin_seat_2",
       "name": "Model 2 Trin Seat, Junk",
       "extraMaterialLists": [
-        ["minecraft:dirt:0:1"]
+        [
+          "minecraft:dirt:0:1"
+        ]
+      ]
+    },
+    {
+      "subName": "_grayblue",
+      "modelName": "trin_seat_2",
+      "name": "Model 2 Trin Seat, Gray And Blue",
+      "extraMaterialLists": [
+        [
+          "minecraft:dye:0:1",
+          "minecraft:dye:4:2",
+          "minecraft:dye:7:1"
+        ]
       ]
     }
   ],
@@ -68,7 +94,11 @@
   "general": {
     "health": 100,
     "materialLists": [
-      ["minecraft:iron_ingot:0:3","minecraft:string:0:4","minecraft:wool:0:3"]
+      [
+        "minecraft:iron_ingot:0:3",
+        "minecraft:string:0:4",
+        "minecraft:wool:0:3"
+      ]
     ],
     "stackSize": 64
   }
