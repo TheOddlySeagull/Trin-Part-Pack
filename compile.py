@@ -43,3 +43,6 @@ py_exec("1-12-2_1-16-5_ID_transformer.py", "--reverse")
 
 # 9) Move item model PNGs back to 1.12.2 assets for a clean repo
 py_exec("generate_item_models.py", "--mode", "move-png", "--revert")
+
+# 10) Clean up generated item model JSON files
+py_exec("generate_item_models.py", "--mode", "cleanup")
