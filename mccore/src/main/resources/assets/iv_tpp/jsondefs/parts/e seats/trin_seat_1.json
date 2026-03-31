@@ -1,27 +1,44 @@
 {
   "generic": {
     "type": "seat",
-    "activeAnimations": [
-      {
-        "animationType": "visibility",
-        "variable": "part_present_1"
-      }
-    ]
+    "forwardsDamageMultiplier": 0.0
   },
   "seat": {},
   "parts": [
     {
       "pos": [
         0.0,
-        -0.03125,
-        0.03125
+        -0.0,
+        -0.1875
+      ],
+      "maxValue": 1.0,
+      "types": [
+        "generic_npc"
+      ],
+      "interactableVariables": [
+        [
+          "!seat_occupied"
+        ],
+        [
+          "!slot_luggage_blocked"
+        ],
+        [
+          "!part_present_2"
+        ]
       ],
       "rot": [
         0.0,
-        90.0,
-        -6.375
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pos": [
+        0.0,
+        -0.03125,
+        0.0
       ],
-      "maxValue": 3.0,
+      "maxValue": 27.0,
       "types": [
         "interactable_luggage"
       ],
@@ -31,29 +48,15 @@
         ],
         [
           "!slot_luggage_blocked"
+        ],
+        [
+          "!part_present_1"
         ]
       ],
-      "animations": [
-        {
-          "animationType": "translation",
-          "variable": "!part_present_1",
-          "axis": [
-            0.0,
-            0.1875,
-            0.0
-          ]
-        }
-      ]
-    },
-    {
-      "pos": [
-        0.0,
-        -0.0125,
-        0.0
-      ],
-      "maxValue": 1.0,
-      "types": [
-        "generic_npc"
+      "rot": [
+        -0.0,
+        90.0,
+        7.0
       ]
     }
   ],
@@ -142,9 +145,11 @@
   ],
   "rendering": {
     "lightObjects": [],
+    "particles": [],
     "modelType": "obj"
   },
   "general": {
+    "stackSize": 64,
     "health": 100,
     "materialLists": [
       [
@@ -153,6 +158,7 @@
         "minecraft:wool:0:2"
       ]
     ],
-    "stackSize": 64
+    "radarWidth": 0.0,
+    "radarRange": 0.0
   }
 }
