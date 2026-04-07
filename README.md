@@ -19,7 +19,7 @@ The Trin Part Pack supplies the reusable parts required by Trin vehicle and cont
 ## Download
 
 - GitHub Actions artifacts: each CI run uploads JARs for 1.12.2 and 1.16.5.
-- Releases: push a tag (e.g., `v2.27.1`) to trigger a release with attached JARs.
+- Releases: push a tag (e.g., `v2.28.0`) to trigger a release with attached JARs.
 
 ## Requirements
 

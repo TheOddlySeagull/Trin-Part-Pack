@@ -11,7 +11,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="iv_tpp"
-version="2.27.1"
+version="2.28.0"
 displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/trin-part-pack"
 logoFile="vingette.png"
@@ -23,7 +23,7 @@ The Trims Of Freedom
 
 [[mods]]
 modId="iv_tpp_v4_tests"
-version="2.27.1"
+version="2.28.0"
 displayName="Immersive Vehicles (MTS/IV) - Trin Parts Pack"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/trin-part-pack"
 logoFile="vingette.png"
