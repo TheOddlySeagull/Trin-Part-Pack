@@ -49,6 +49,14 @@ def collect_pngs(directory: Path) -> list[Path]:
     )
 
 
+def collect_item_source_roots(textures_dir: Path) -> list[Path]:
+    items_dir = textures_dir / "items"
+    if not items_dir.exists() or not items_dir.is_dir():
+        return []
+
+    return sorted(path for path in items_dir.iterdir() if path.is_dir())
+
+
 def get_revert_destination_root(pack_dir: Path, textures_dir: Path) -> Path:
     items_dir = textures_dir / "items"
     parts_dir = items_dir / "parts"
@@ -168,10 +176,7 @@ def move_item_pngs(base_path: Path, revert: bool) -> tuple[int, int, int]:
                 moved_count += 1
         else:
             destination_root = textures_dir / "item"
-            source_roots = [
-                textures_dir / "items" / "vehicles",
-                textures_dir / "items" / "parts",
-            ]
+            source_roots = collect_item_source_roots(textures_dir)
 
             for source_root in source_roots:
                 source_files = collect_pngs(source_root)
@@ -224,7 +229,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
             "Generate item model JSON files or move item PNGs between "
-            "textures/items/vehicles and textures/item."
+            "textures/items/* and textures/item."
         )
     )
     parser.add_argument(
@@ -242,7 +247,7 @@ def main() -> None:
     parser.add_argument(
         "--revert",
         action="store_true",
-        help="With --mode move-png, move from textures/item back to textures/items/vehicles.",
+        help="With --mode move-png, restore the original texture locations from the move manifest.",
     )
     args = parser.parse_args()
 
