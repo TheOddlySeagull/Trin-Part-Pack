@@ -8,7 +8,7 @@
     {
       "pos": [0.0,0.0625,-3.0],
       "maxValue": 100.0,
-      "types": ["interactable_container_single"]
+      "types": ["interactable_container_single", "generic_container_single"]
     }
   ],
   "definitions": [
