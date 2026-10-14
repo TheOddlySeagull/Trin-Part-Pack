@@ -18,8 +18,8 @@ apply plugin: "org.parchmentmc.librarian.forgegradle"
 //apply plugin: "org.spongepowered.mixin"
 //apply plugin: "eclipse"
 
-//Tags pass -PreleaseVersion to Gradle.  Local builds deliberately remain visibly non-release.
-def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("development_version")
+//Tags pass -PreleaseVersion to Gradle.  Other builds use the latest valid release version.
+def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("global_version")
 
 //Set file name.
 version = "${project.mc_version}-${packVersion}"
