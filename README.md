@@ -14,12 +14,12 @@ Immersive Vehicles (MTS/IV) parts pack providing engines, wheels, seats, crates,
 The Trin Part Pack supplies the reusable parts required by Trin vehicle and content packs. Many Trin vehicles won’t spawn without this pack installed.
 
 - Required by: Trin Civil Pack, others
-- MC versions targeted: 1.12.2 and 1.16.5
+- MC versions targeted: 1.12.2, 1.16.5, and 1.20.1
 
 ## Download
 
-- GitHub Actions artifacts: each CI run uploads JARs for 1.12.2 and 1.16.5.
-- Releases: push a tag (e.g., `v2.28.0`) to trigger a release with attached JARs.
+- GitHub Actions artifacts: each CI run uploads JARs for 1.12.2, 1.16.5, and 1.20.1.
+- Releases: push a version tag (for example, `2.28.1`) to trigger a release with attached JARs. The tag is the release version source of truth.
 
 ## Requirements
 
@@ -36,17 +36,18 @@ The Trin Part Pack supplies the reusable parts required by Trin vehicle and cont
 ## Building (Developers)
 
 Prereqs:
-- JDK 8
+- JDK 8 and JDK 17
 - Git and Gradle wrapper (included)
 
 Quick build:
-- Windows: `gradlew.bat buildForge1122 && gradlew.bat buildForge1165`
-- Linux/macOS: `./gradlew buildForge1122 && ./gradlew buildForge1165`
+- Windows: `gradlew.bat buildForge1122 && gradlew.bat buildForge1165 && gradlew.bat buildForge1201`
+- Linux/macOS: `./gradlew buildForge1122 && ./gradlew buildForge1165 && ./gradlew buildForge1201`
 
 Artifacts appear under `out/`.
 
 CI:
-- GitHub Actions builds on push/PR, uploads artifacts, and publishes releases on tags.
+- GitHub Actions builds on push/PR, uploads artifacts, and publishes releases on version tags.
+- Tagged builds embed the tag version in all Forge and NeoForge metadata files. Non-tag CI builds use a clearly non-release `dev.<commit>` version; local builds use `dev` unless `-PreleaseVersion=<version>` is supplied.
 
 ## Changelog
 

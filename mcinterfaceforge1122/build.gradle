@@ -13,8 +13,11 @@ buildscript {
 apply plugin: "net.minecraftforge.gradle"
 apply plugin: "eclipse"
 
+//Tags pass -PreleaseVersion to Gradle.  Local builds deliberately remain visibly non-release.
+def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("development_version")
+
 //Set file name.
-version = "${project.mc_version}-${project.mod_version}"
+version = "${project.mc_version}-${packVersion}"
 group = project.mod_group
 archivesBaseName = project.archive_name
 
@@ -23,6 +26,17 @@ sourceCompatibility = targetCompatibility = "1.8"
 compileJava {
     options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }
+
+//Compile a generated copy so the version embedded in the Forge loader always matches this build.
+def generatedSourcesDir = file("$buildDir/generated/sources/versioned/java")
+task generateVersionedSources(type: Copy) {
+    from "src/main/java"
+    into generatedSourcesDir
+    filteringCharset = "UTF-8"
+    filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [MOD_VERSION: packVersion.toString()])
+}
+sourceSets.main.java.setSrcDirs([generatedSourcesDir])
+compileJava.dependsOn generateVersionedSources
 
 //Minecraft mappings and run configs.
 minecraft {

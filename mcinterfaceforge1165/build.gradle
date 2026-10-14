@@ -18,8 +18,11 @@ apply plugin: "org.parchmentmc.librarian.forgegradle"
 //apply plugin: "org.spongepowered.mixin"
 //apply plugin: "eclipse"
 
+//Tags pass -PreleaseVersion to Gradle.  Local builds deliberately remain visibly non-release.
+def packVersion = rootProject.findProperty("releaseVersion") ?: rootProject.property("development_version")
+
 //Set file name.
-version = "${project.mc_version}-${project.mod_version}"
+version = "${project.mc_version}-${packVersion}"
 group = project.mod_group
 archivesBaseName = project.archive_name
 
@@ -27,6 +30,13 @@ archivesBaseName = project.archive_name
 sourceCompatibility = targetCompatibility = "1.8"
 compileJava {
     options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
+}
+
+processResources {
+    inputs.property "packVersion", packVersion
+    filesMatching("META-INF/mods.toml") {
+        expand(MOD_VERSION: packVersion)
+    }
 }
 
 //Minecraft mappings and run configs.
