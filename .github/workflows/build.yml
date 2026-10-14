@@ -51,9 +51,9 @@ jobs:
       - name: Set build version
         run: |
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
-            echo "TRIN_VERSION=$GITHUB_REF_NAME" >> "$GITHUB_ENV"
+            echo "RELEASE_VERSION_ARG=-PreleaseVersion=$GITHUB_REF_NAME" >> "$GITHUB_ENV"
           else
-            echo "TRIN_VERSION=dev.${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+            echo "RELEASE_VERSION_ARG=" >> "$GITHUB_ENV"
           fi
 
       # Only run if the script exists in this repo
@@ -66,14 +66,14 @@ jobs:
         run: python ./1-12-2_1-16-5_ID_transformer.py --reverse
 
       - name: Build Forge 1.12.2
-        run: ./gradlew --no-daemon -PreleaseVersion="$TRIN_VERSION" buildForge1122
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1122
 
       - name: Transform IDs forward for 1.16.5
         if: ${{ hashFiles('1-12-2_1-16-5_ID_transformer.py') != '' }}
         run: python ./1-12-2_1-16-5_ID_transformer.py
 
       - name: Build Forge 1.16.5
-        run: ./gradlew --no-daemon -PreleaseVersion="$TRIN_VERSION" buildForge1165
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1165
 
       - name: Prepare item model assets for 1.20.1 (generate-json)
         if: ${{ hashFiles('generate_item_models.py') != '' }}
@@ -91,7 +91,7 @@ jobs:
           cache: gradle
 
       - name: Build Forge 1.20.1
-        run: ./gradlew --no-daemon -PreleaseVersion="$TRIN_VERSION" buildForge1201
+        run: ./gradlew --no-daemon $RELEASE_VERSION_ARG buildForge1201
 
       - name: Restore IDs back to 1.12.2 state
         if: ${{ hashFiles('1-12-2_1-16-5_ID_transformer.py') != '' }}

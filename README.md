@@ -47,7 +47,7 @@ Artifacts appear under `out/`.
 
 CI:
 - GitHub Actions builds on push/PR, uploads artifacts, and publishes releases on version tags.
-- Tagged builds embed the tag version in all Forge and NeoForge metadata files. Non-tag CI builds use a clearly non-release `dev.<commit>` version; local builds use `dev` unless `-PreleaseVersion=<version>` is supplied.
+- Tagged builds embed the tag version in all Forge and NeoForge metadata files. Non-tag and local builds use the latest valid release version from `global_version`, unless `-PreleaseVersion=<version>` is supplied.
 
 ## Changelog
 
